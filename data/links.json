@@ -1,0 +1,926 @@
+{
+ "activezero": {
+  "code": "https://github.com/jinghan1he/Active-Zero"
+ },
+ "acurl": {
+  "code": "https://github.com/OSU-NLP-Group/ACuRL"
+ },
+ "agent0vl": {
+  "code": "https://github.com/aiming-lab/Agent0"
+ },
+ "agentcl": {
+  "code": "https://huggingface.co/datasets/osunlp/AgentCL"
+ },
+ "agenticmme": {
+  "code": "https://github.com/ChoS3nE11ven/Agentic-MME"
+ },
+ "agentrewardbench": {
+  "code": "https://github.com/McGill-NLP/agent-reward-bench"
+ },
+ "agents": {
+  "code": "https://github.com/simular-ai/Agent-S"
+ },
+ "agents4": {
+  "code": "https://github.com/simular-ai/Agent-S/tree/main/agent_s4"
+ },
+ "aitw": {
+  "code": "https://github.com/google-research/google-research/tree/master/android_in_the_wild"
+ },
+ "androidcontrol": {
+  "code": "https://github.com/google-research/google-research/tree/master/android_control"
+ },
+ "androidlab": {
+  "code": "https://github.com/THUDM/Android-Lab"
+ },
+ "androidworld": {
+  "code": "https://github.com/google-research/android_world"
+ },
+ "appagentx": {
+  "code": "https://github.com/Westlake-AGI-Lab/AppAgentX"
+ },
+ "arpo": {
+  "code": "https://github.com/JIA-Lab-research/ARPO"
+ },
+ "asg": {
+  "code": "https://github.com/mbzuai-oryx/Ask-Solve-Generate"
+ },
+ "aspire": {
+  "code": "https://github.com/NVlabs/ASPIRE"
+ },
+ "autoscalemem": {
+  "code": "https://github.com/WenyiWU0111/CoMEM-Agent"
+ },
+ "azr": {
+  "code": "https://github.com/LeapLabTHU/Absolute-Zero-Reasoner"
+ },
+ "bai2022training": {
+  "code": "https://github.com/anthropics/hh-rlhf"
+ },
+ "bai2025qwen3": {
+  "code": "https://github.com/QwenLM/Qwen3-VL"
+ },
+ "behavior1k": {
+  "code": "https://github.com/StanfordVL/BEHAVIOR-1K"
+ },
+ "benchjack": {
+  "code": "https://github.com/benchjack/benchjack"
+ },
+ "beyondendpoint": {
+  "code": "https://github.com/HQ-Lin/EvoPathBench"
+ },
+ "buzzega2020dark": {
+  "code": "https://github.com/aimagelab/mammoth"
+ },
+ "cai2023large": {
+  "code": "https://github.com/ctlllll/llm-toolmaker"
+ },
+ "campero2021learning": {
+  "code": "https://github.com/facebookresearch/adversarially-motivated-intrinsic-goals"
+ },
+ "ccselfreward": {
+  "code": "https://github.com/safouaneelg/SRT2I"
+ },
+ "cgl": {
+  "code": "https://github.com/skounputer/CGL"
+ },
+ "chaudhry2019efficient": {
+  "code": "https://github.com/facebookresearch/agem"
+ },
+ "chen2024internvl": {
+  "code": "https://github.com/opengvlab/internvl-mmdetseg"
+ },
+ "chen2025janus": {
+  "code": "https://github.com/deepseek-ai/Janus"
+ },
+ "chen2026recursive": {
+  "code": "https://github.com/deepgrounding/recursive-self-improvement"
+ },
+ "coderl": {
+  "code": "https://github.com/salesforce/CodeRL"
+ },
+ "comfyclaw": {
+  "code": "https://github.com/Moms-Organic-Agent-Lab/comfyclaw"
+ },
+ "computerrl": {
+  "code": "https://github.com/thudm/ComputerRL"
+ },
+ "continualagentmemory": {
+  "code": "https://github.com/solomoon313/AgentMemoryBench"
+ },
+ "continualgui": {
+  "code": "https://github.com/xavierliu34/GUI-AiF"
+ },
+ "corlulm": {
+  "code": "https://github.com/mm-vl/ULM-R1"
+ },
+ "corvid": {
+  "code": "https://github.com/mm-vl/corvid"
+ },
+ "coworld": {
+  "code": "https://github.com/ModalityDance/CoWorld-Reasoner"
+ },
+ "criteriaexposure": {
+  "code": "https://github.com/DAGroup-PKU/PyRUA-Lean/tree/RSIJudge"
+ },
+ "cui2025prime": {
+  "code": "https://github.com/PRIME-RL/PRIME"
+ },
+ "cui2026failbank": {
+  "code": "https://github.com/Mingyuee88/FailBank"
+ },
+ "dancegrpo": {
+  "code": "https://github.com/XueZeyue/DanceGRPO"
+ },
+ "dartgui": {
+  "code": "https://github.com/computer-use-agents/dart-gui"
+ },
+ "dennis2020emergent": {
+  "code": "https://github.com/google-research/google-research/tree/master/social_rl"
+ },
+ "diao2023active": {
+  "code": "https://github.com/shizhediao/active-prompt"
+ },
+ "digirl": {
+  "code": "https://github.com/DigiRL-agent/digirl"
+ },
+ "discoverse": {
+  "code": "https://github.com/discoverse-dev/DISCOVERSE"
+ },
+ "dohare2024plasticity": {
+  "code": "https://github.com/shibhansh/loss-of-plasticity"
+ },
+ "dong2024xgrammar": {
+  "code": "https://github.com/mlc-ai/xgrammar"
+ },
+ "du2023guiding": {
+  "code": "https://github.com/yuqingd/ellm"
+ },
+ "dualipo": {
+  "code": "https://github.com/SAIS-FUXI/IPO"
+ },
+ "dynaweb": {
+  "code": "https://github.com/jadeleiyu/MBRL-Agent"
+ },
+ "ella": {
+  "code": "https://github.com/TencentQQGYLab/ELLA"
+ },
+ "embodiedclbench": {
+  "code": "https://github.com/PKU-VaLuE-Lab/EmbodiedCLBench"
+ },
+ "embodiedevo": {
+  "code": "https://github.com/Einsia/EmbodiedEvo"
+ },
+ "enpire": {
+  "code": "https://github.com/NVlabs/ENPIRE"
+ },
+ "eve": {
+  "code": "https://github.com/0001Henry/EVE"
+ },
+ "evoagentbench": {
+  "code": "https://huggingface.co/datasets/EverMind-AI/EvoAgentBench"
+ },
+ "evobenchharness": {
+  "code": "https://github.com/RUCAIBox/Evo-Bench"
+ },
+ "evocua": {
+  "code": "https://github.com/meituan/EvoCUA"
+ },
+ "evodiagram": {
+  "code": "https://github.com/GeminiLight/EvoDesign"
+ },
+ "evolmm": {
+  "code": "https://github.com/mbzuai-oryx/EvoLMM"
+ },
+ "evolvevla": {
+  "code": "https://github.com/showlab/EVOLVE-VLA"
+ },
+ "evomembench": {
+  "code": "https://github.com/DSAIL-Memory/EvoMemBench"
+ },
+ "evoskillgui": {
+  "code": "https://github.com/ZJU-REAL/EvoSkill-GUI"
+ },
+ "evovla": {
+  "code": "https://github.com/AIGeeksGroup/EvoVLA"
+ },
+ "fang2025comprehensive": {
+  "code": "https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents"
+ },
+ "findcantdo": {
+  "code": "https://github.com/FangYzzz/FIND"
+ },
+ "flexrsi": {
+  "code": "https://github.com/flex-rsi/rsi-bench"
+ },
+ "flowgrpo": {
+  "code": "https://github.com/yifan123/flow_grpo"
+ },
+ "gameboyworlds": {
+  "code": "https://github.com/DhananjayAshok/GameBoyWorlds-Benchmark"
+ },
+ "gameverse": {
+  "code": "https://github.com/THUSI-Lab/GameVerse"
+ },
+ "gao2025survey": {
+  "code": "https://github.com/CharlesQ9/Self-Evolving-Agents"
+ },
+ "gdpevo": {
+  "code": "https://github.com/Prism-Shadow/GDPevo"
+ },
+ "geneval": {
+  "code": "https://github.com/djghosh13/geneval"
+ },
+ "geneval2": {
+  "code": "https://github.com/facebookresearch/GenEval2"
+ },
+ "genevolve": {
+  "code": "https://github.com/MeiGen-AI/GenEvolve"
+ },
+ "geng2023grammar": {
+  "code": "https://github.com/epfl-dlab/gcd"
+ },
+ "gou2024critic": {
+  "code": "https://github.com/microsoft/ProphetNet"
+ },
+ "guiharvest": {
+  "code": "https://github.com/GaryYang12345/GUI-HARVEST"
+ },
+ "guiowl": {
+  "code": "https://github.com/X-PLUG/MobileAgent"
+ },
+ "guo2025deepseekr1": {
+  "code": "https://github.com/deepseek-ai/deepseek-r1"
+ },
+ "guo2026memory": {
+  "code": "https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-evolution"
+ },
+ "gvu": {
+  "code": "https://github.com/matrix0721/GvU"
+ },
+ "hallusionbench": {
+  "code": "https://github.com/tianyi-lab/hallusionbench"
+ },
+ "harnessbenefit": {
+  "code": "https://github.com/A-EVO-Lab/a-evolve/tree/release/harness-evolution"
+ },
+ "harnessvla": {
+  "code": "https://github.com/RLinf/RPent"
+ },
+ "hu2025osagents": {
+  "code": "https://github.com/OS-Agent-Survey/OS-Agent-Survey"
+ },
+ "hu2026guirl": {
+  "code": "https://github.com/Steve2457/Awesome-RL-GUI-Agents"
+ },
+ "huang2025vision": {
+  "code": "https://github.com/Osilly/Vision-R1"
+ },
+ "huang2026agentic": {
+  "code": "https://github.com/YinmingHuang/Awesome-agentic-visual-generation-model"
+ },
+ "identitygrpo": {
+  "code": "https://github.com/alibaba/identity-grpo"
+ },
+ "imgownreward": {
+  "code": "https://github.com/showlab/Adv-GRPO"
+ },
+ "intergps": {
+  "code": "https://github.com/lupantech/InterGPS"
+ },
+ "iqaselfevolve": {
+  "code": "https://github.com/bytedance/EvoQuality"
+ },
+ "ireasoner": {
+  "code": "https://github.com/meghanaasunil/iReasoner"
+ },
+ "isovrbench": {
+  "code": "https://github.com/stellalisy/IsoVRBench"
+ },
+ "isrdpo": {
+  "code": "https://github.com/snumprlab/ISR-DPO"
+ },
+ "janner2019mbpo": {
+  "code": "https://github.com/JannerM/mbpo"
+ },
+ "jarvisevo": {
+  "code": "https://github.com/LYL1015/JarvisEvo"
+ },
+ "jiang2021prioritized": {
+  "code": "https://github.com/facebookresearch/level-replay"
+ },
+ "jiang2025adaptation": {
+  "code": "https://github.com/pat-jj/Awesome-Adaptation-of-Agentic-AI"
+ },
+ "judgehackingpace": {
+  "code": "https://github.com/haosenwang1018/judge-hacking-pace"
+ },
+ "kalashnikov2018qtopt": {
+  "code": "https://github.com/google-research/tensor2robot/tree/master/research/qtopt"
+ },
+ "khattab2024dspy": {
+  "code": "https://github.com/stanfordnlp/dspy"
+ },
+ "kimi2025k15": {
+  "code": "https://github.com/moonshotai/kimi-k1.5"
+ },
+ "lai2024step": {
+  "code": "https://github.com/JIA-Lab-research/Step-DPO"
+ },
+ "lambert2024tulu": {
+  "code": "https://github.com/allenai/open-instruct"
+ },
+ "li2018learning": {
+  "code": "https://github.com/lizhitwo/LearningWithoutForgetting"
+ },
+ "libero": {
+  "code": "https://github.com/lifelong-robot-learning/libero"
+ },
+ "liberopro": {
+  "code": "https://github.com/Zxy-MLlab/LIBERO-PRO"
+ },
+ "lifelongagentbench": {
+  "code": "https://github.com/caixd-220529/LifelongAgentBench"
+ },
+ "longmemevalv2": {
+  "code": "https://github.com/xiaowu0162/LongMemEval-V2"
+ },
+ "lopez2017gradient": {
+  "code": "https://github.com/facebookresearch/GradientEpisodicMemory"
+ },
+ "lrm": {
+  "code": "https://github.com/physical-superintelligence-lab/Large-Reward-Models"
+ },
+ "lu2024mathvista": {
+  "code": "https://github.com/lupantech/MathVista"
+ },
+ "madaan2023self": {
+  "code": "https://github.com/madaan/self-refine"
+ },
+ "magnet": {
+  "code": "https://github.com/sunlibo2390/MAGNET"
+ },
+ "makoviychuk2021isaac": {
+  "code": "https://github.com/isaac-sim/IsaacGymEnvs"
+ },
+ "manimagent": {
+  "code": "https://github.com/jwj1342/Paper2Manim"
+ },
+ "marvo": {
+  "code": "https://github.com/YWenxi/marvo"
+ },
+ "masry2022chartqa": {
+  "code": "https://github.com/vis-nlp/chartqa"
+ },
+ "mathvision": {
+  "code": "https://github.com/mathllm/MATH-V"
+ },
+ "mcevobench": {
+  "code": "https://github.com/xzw-ustc/mc-bench-open-source"
+ },
+ "memguibench": {
+  "code": "https://github.com/lgy0404/MemGUI-Bench"
+ },
+ "memogen": {
+  "code": "https://github.com/Chatonz/MemoGen"
+ },
+ "memoryagentbench": {
+  "code": "https://github.com/HUST-AI-HYZ/MemoryAgentBench"
+ },
+ "memw": {
+  "code": "https://github.com/bingreeky/Mem-W"
+ },
+ "merl": {
+  "code": "https://github.com/li-wenzhan/MERL"
+ },
+ "mjbench": {
+  "code": "https://github.com/MJ-Bench/MJ-Bench"
+ },
+ "mllmjudge": {
+  "code": "https://github.com/Dongping-Chen/MLLM-Judge"
+ },
+ "mmg2skillbench": {
+  "code": "https://github.com/NJU-LINK/MMG2Skill"
+ },
+ "mmmu": {
+  "code": "https://github.com/MMMU-Benchmark/MMMU"
+ },
+ "mmrewardbench": {
+  "code": "https://github.com/facebookresearch/multimodal_rewardbench"
+ },
+ "mmrewardhacking": {
+  "code": "https://github.com/Theodyy/MLLM-Reward-Hacking"
+ },
+ "mmsibench": {
+  "code": "https://github.com/InternRobotics/MMSI-Bench"
+ },
+ "mmstar": {
+  "code": "https://github.com/MMStar-Benchmark/MMStar"
+ },
+ "mmupt": {
+  "code": "https://github.com/waltonfuture/MM-UPT"
+ },
+ "mmvu": {
+  "code": "https://github.com/yale-nlp/MMVU"
+ },
+ "mmzero": {
+  "code": "https://github.com/zli12321/MM-Zero"
+ },
+ "mobileagente": {
+  "code": "https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-E"
+ },
+ "mobileforge": {
+  "code": "https://github.com/kwai/MobileForge"
+ },
+ "mobilejudgebench": {
+  "code": "https://github.com/WZq975/MobileJudgeBench"
+ },
+ "mobilerl": {
+  "code": "https://github.com/THUDM/MobileRL"
+ },
+ "motus2": {
+  "code": "https://github.com/shengshu-ai/Motus2"
+ },
+ "mstar": {
+  "code": "https://github.com/hkust-nlp/mstar"
+ },
+ "mtopsd": {
+  "code": "https://github.com/liangbingzhao/MT-OPSD"
+ },
+ "multicrafter": {
+  "code": "https://github.com/WuTao-CS/MultiCrafter"
+ },
+ "niu2022efficient": {
+  "code": "https://github.com/mr-eggplant/EATA"
+ },
+ "octot2i": {
+  "code": "https://github.com/JaxJiang2642081986/OctoT2I"
+ },
+ "omnigamearena": {
+  "code": "https://github.com/mxlin043/OmniGameArena"
+ },
+ "opagent": {
+  "code": "https://github.com/codefuse-ai/OpAgent"
+ },
+ "openwebvoyager": {
+  "code": "https://github.com/minorjerry/openwebvoyager"
+ },
+ "osworld": {
+  "code": "https://github.com/xlang-ai/OSWorld"
+ },
+ "ouyang2022training": {
+  "code": "https://github.com/openai/following-instructions-human-feedback"
+ },
+ "packer2024memgpt": {
+  "code": "https://github.com/letta-ai/letta"
+ },
+ "pan2024feedback": {
+  "code": "https://github.com/aypan17/llm-feedback"
+ },
+ "panickssery2024llm": {
+  "code": "https://github.com/ArjunPanickssery/self_recognition"
+ },
+ "park2023generative": {
+  "code": "https://github.com/joonspk-research/generative_agents"
+ },
+ "parkerholder2022evolving": {
+  "code": "https://github.com/facebookresearch/dcd"
+ },
+ "patil2024gorilla": {
+  "code": "https://github.com/ShishirPatil/gorilla"
+ },
+ "perfguard": {
+  "code": "https://github.com/FelixChan9527/PerfGuard"
+ },
+ "pham2021meta": {
+  "code": "https://github.com/google-research/google-research/tree/master/meta_pseudo_labels"
+ },
+ "physbench": {
+  "code": "https://github.com/physical-superintelligence-lab/PhysBench"
+ },
+ "physevolve": {
+  "code": "https://github.com/yelonhu/PhysEvolve"
+ },
+ "physrepair": {
+  "code": "https://github.com/xxkkxxx/PhysRepair"
+ },
+ "physrsieval": {
+  "code": "https://github.com/PhysRSI-Eval/PhysRSI-Eval-code"
+ },
+ "pirl": {
+  "code": "https://github.com/RLinf/RLinf"
+ },
+ "pragmabot": {
+  "code": "https://github.com/leggedrobotics/pragmabot"
+ },
+ "prism": {
+  "code": "https://anonymous.4open.science/r/PRISM-FF81"
+ },
+ "pu2026trustworthy": {
+  "code": "https://github.com/pujiayue/Trustworthy-RSI"
+ },
+ "pvse": {
+  "code": "https://github.com/ahmedheakl/VQS"
+ },
+ "qin2024toolllm": {
+  "code": "https://github.com/openbmb/toolbench"
+ },
+ "qwen25vl": {
+  "code": "https://github.com/QwenLM/Qwen3-VL"
+ },
+ "r3v": {
+  "code": "https://github.com/njucckevin/MM-Self-Improve"
+ },
+ "rafailov2023direct": {
+  "code": "https://github.com/eric-mitchell/direct-preference-optimization"
+ },
+ "rats": {
+  "code": "https://github.com/Playful-RATs/rats"
+ },
+ "readitback": {
+  "code": "https://github.com/huangrh99/AlphaGRPO"
+ },
+ "rebuffi2017icarl": {
+  "code": "https://github.com/srebuffi/iCaRL"
+ },
+ "ren2026selfimprovements": {
+  "code": "https://github.com/selfimproving-agent/awesome-Self-Improving-Agents"
+ },
+ "riptvla": {
+  "code": "https://github.com/Ariostgx/ript-vla"
+ },
+ "rise": {
+  "code": "https://github.com/AMAP-ML/RISE"
+ },
+ "rltf": {
+  "code": "https://github.com/zyq-scut/rltf"
+ },
+ "rmrl": {
+  "code": "https://github.com/NTUMARS/RMRL"
+ },
+ "robocasa": {
+  "code": "https://github.com/robocasa/robocasa"
+ },
+ "robodojo": {
+  "code": "https://github.com/RoboDojo-Benchmark/RoboDojo"
+ },
+ "roboharnevo": {
+  "code": "https://github.com/RUCKBReasoning/RoboHarn-Evo"
+ },
+ "robolab": {
+  "code": "https://github.com/NVLabs/RoboLab"
+ },
+ "roborsi": {
+  "code": "https://github.com/nssmd/RoboRSI"
+ },
+ "robotagentbench": {
+  "code": "https://github.com/AetherLabsAI/RobotAgentBench"
+ },
+ "robotwin2": {
+  "code": "https://github.com/robotwin-Platform/RoboTwin"
+ },
+ "russell2009artificial": {
+  "code": "https://github.com/aimacode/aima-python"
+ },
+ "rzero": {
+  "code": "https://github.com/Chengsong-Huang/R-Zero"
+ },
+ "sarm2": {
+  "code": "https://github.com/xdofai/opensarm"
+ },
+ "scaffold": {
+  "code": "https://github.com/BokwaiHo/SCAFFOLD"
+ },
+ "schulman2017proximal": {
+  "code": "https://github.com/openai/baselines"
+ },
+ "scienceboard": {
+  "code": "https://github.com/OS-Copilot/ScienceBoard"
+ },
+ "scvla": {
+  "code": "https://github.com/Kisaragi0/SC-VLA"
+ },
+ "seagent": {
+  "code": "https://github.com/SunzeY/SEAgent"
+ },
+ "searrobot": {
+  "code": "https://github.com/Self-Evolving-Agentic-Robotics/SEAR"
+ },
+ "selfimprovebench": {
+  "code": "https://github.com/theseus-labs-rsi/SelfImprove-Bench"
+ },
+ "selfjudge": {
+  "code": "https://github.com/OPPO-Mente-Lab/LLM-Self-Judge"
+ },
+ "selfquestion": {
+  "code": "https://github.com/saraamjith/sq-vlms"
+ },
+ "shafayat2025selftrain": {
+  "code": "https://github.com/tajwarfahim/srt"
+ },
+ "shao2024deepseekmath": {
+  "code": "https://github.com/deepseek-ai/deepseek-math"
+ },
+ "shao2026misevolve": {
+  "code": "https://github.com/ShaoShuai0605/Misevolution"
+ },
+ "shao2026spurious": {
+  "code": "https://github.com/ruixin31/spurious_rewards"
+ },
+ "sharma2022autonomous": {
+  "code": "https://github.com/architsharma97/earl_benchmark"
+ },
+ "sherlock": {
+  "code": "https://github.com/DripNowhy/Sherlock"
+ },
+ "shinn2023reflexion": {
+  "code": "https://github.com/noahshinn/reflexion"
+ },
+ "sidiffagent": {
+  "code": "https://github.com/ayushsi42/sidiff_agent"
+ },
+ "siefm": {
+  "code": "https://github.com/self-improving-efms/self-improving-efms.github.io"
+ },
+ "silmm": {
+  "code": "https://github.com/LgQu/SILMM"
+ },
+ "simplerecipe": {
+  "code": "https://github.com/UT-Austin-RobIn/continual-vla-rl"
+ },
+ "simplevlarl": {
+  "code": "https://github.com/PRIME-RL/SimpleVLA-RL"
+ },
+ "skillweaver": {
+  "code": "https://github.com/OSU-NLP-Group/SkillWeaver"
+ },
+ "smartsnap": {
+  "code": "https://github.com/TencentYoutuResearch/SmartSnap"
+ },
+ "soar": {
+  "code": "https://github.com/rail-berkeley/soar"
+ },
+ "sohn2020fixmatch": {
+  "code": "https://github.com/google-research/fixmatch"
+ },
+ "solace": {
+  "code": "https://github.com/wookiekim/SOLACE"
+ },
+ "solerl": {
+  "code": "https://github.com/rai-opensource/sole-r1"
+ },
+ "spatialevo": {
+  "code": "https://github.com/ZJU-REAL/SpatialEvo"
+ },
+ "srum": {
+  "code": "https://github.com/WayneJin0918/SRUM"
+ },
+ "stulife": {
+  "code": "https://github.com/ECNU-ICALK/ELL-StuLife"
+ },
+ "suder": {
+  "code": "https://github.com/hongjx175/SUDER"
+ },
+ "sukhbaatar2018intrinsic": {
+  "code": "https://github.com/tesatory/selfplay"
+ },
+ "sun2020test": {
+  "code": "https://github.com/yueatsprograms/ttt_cifar_release"
+ },
+ "svq": {
+  "code": "https://github.com/tianyi-lab/SeeQ"
+ },
+ "symbomni": {
+  "code": "https://github.com/Sphere-AI-Lab/symbomni"
+ },
+ "syncloop": {
+  "code": "https://github.com/chen-xw/C2-Evo"
+ },
+ "t2icompbench": {
+  "code": "https://github.com/Karine-Huang/T2I-CompBench"
+ },
+ "t2irewardhacking": {
+  "code": "https://github.com/yq-hong/ArtifactReward"
+ },
+ "tao2024maniskill3": {
+  "code": "https://github.com/mani-skill/ManiSkill"
+ },
+ "tdpo": {
+  "code": "https://github.com/ZiyiZhang27/tdpo"
+ },
+ "team2024chameleon": {
+  "code": "https://github.com/facebookresearch/chameleon"
+ },
+ "tempozero": {
+  "code": "https://github.com/Alchemist-Jo/tempo-zero-code"
+ },
+ "touvron2023llama": {
+  "code": "https://github.com/meta-llama/llama"
+ },
+ "traces2skills": {
+  "code": "https://github.com/LongtaoHu/Skill-Evo4GUI"
+ },
+ "ttrv": {
+  "code": "https://github.com/Akshit21112002/TTRV"
+ },
+ "tvp": {
+  "code": "https://github.com/transductive-visualprogram/tvp"
+ },
+ "uigenie": {
+  "code": "https://github.com/Euphoria16/UI-Genie"
+ },
+ "uitars2": {
+  "code": "https://github.com/bytedance/ui-tars"
+ },
+ "uivoyager": {
+  "code": "https://github.com/ui-voyager/UI-Voyager"
+ },
+ "unirl": {
+  "code": "https://github.com/showlab/unirl"
+ },
+ "vbench": {
+  "code": "https://github.com/Vchitect/VBench"
+ },
+ "verievol": {
+  "code": "https://github.com/RobertMarton/verievol"
+ },
+ "videoagent": {
+  "code": "https://github.com/video-as-agent/videoagent"
+ },
+ "videoevoharness": {
+  "code": "https://github.com/Wei-Xin-Xu/VideoEvoHarness"
+ },
+ "vima": {
+  "code": "https://github.com/vimalabs/VIMABench"
+ },
+ "visionsr1": {
+  "code": "https://github.com/zli12321/Vision-SR1"
+ },
+ "visionzero": {
+  "code": "https://github.com/wangqinsi1/Vision-Zero"
+ },
+ "viskill": {
+  "code": "https://github.com/ZJU-REAL/ViSkill"
+ },
+ "visplay": {
+  "code": "https://github.com/bruno686/VisPlay"
+ },
+ "visualprm": {
+  "code": "https://github.com/OpenGVLab/InternVL"
+ },
+ "visualwebarena": {
+  "code": "https://github.com/web-arena-x/visualwebarena"
+ },
+ "vlabench": {
+  "code": "https://github.com/OpenMOSS/VLABench"
+ },
+ "vlrewardbench": {
+  "code": "https://github.com/vl-rewardbench/VL_RewardBench"
+ },
+ "vsibench": {
+  "code": "https://github.com/vision-x-nyu/thinking-in-space"
+ },
+ "vtokens": {
+  "code": "https://github.com/mbzuai-oryx/VISE"
+ },
+ "vurb": {
+  "code": "https://github.com/wyclike/VURM"
+ },
+ "vzero": {
+  "code": "https://github.com/SatonoDia/V-Zero"
+ },
+ "wang2019paired": {
+  "code": "https://github.com/uber-research/poet"
+ },
+ "wang2021tent": {
+  "code": "https://github.com/DequanWang/tent"
+ },
+ "wang2022continual": {
+  "code": "https://github.com/qinenergy/cotta"
+ },
+ "wang2023selfinstruct": {
+  "code": "https://github.com/yizhongw/self-instruct"
+ },
+ "wang2023voyager": {
+  "code": "https://github.com/MineDojo/Voyager"
+ },
+ "wang2024emu3": {
+  "code": "https://github.com/baaivision/emu3"
+ },
+ "wang2024gensim": {
+  "code": "https://github.com/liruiw/gensim"
+ },
+ "wang2024robogen": {
+  "code": "https://github.com/Genesis-Embodied-AI/RoboGen"
+ },
+ "wang2024survey": {
+  "code": "https://github.com/paitesanshi/llm-agent-survey"
+ },
+ "webagentr1": {
+  "code": "https://github.com/weizhepei/webagent-r1"
+ },
+ "webarena": {
+  "code": "https://github.com/web-arena-x/webarena"
+ },
+ "webcoach": {
+  "code": "https://github.com/genglinliu/WebCoach"
+ },
+ "webgym": {
+  "code": "https://github.com/microsoft/webgym"
+ },
+ "webrl": {
+  "code": "https://github.com/THUDM/WebRL"
+ },
+ "webvoyager": {
+  "code": "https://github.com/minorjerry/webvoyager"
+ },
+ "willard2023outlines": {
+  "code": "https://github.com/dottxt-ai/outlines"
+ },
+ "wise": {
+  "code": "https://github.com/PKU-YuanGroup/WISE"
+ },
+ "wmr1": {
+  "code": "https://github.com/genalyu/WM-R1"
+ },
+ "worldmemarena": {
+  "code": "https://github.com/UCSB-AI/WorldMemArena"
+ },
+ "wovr": {
+  "code": "https://github.com/RLinf/RLinf"
+ },
+ "wu2025selfplay": {
+  "code": "https://github.com/thinkwee/SelfPlay_SelfEvo_Gap"
+ },
+ "wu2026co": {
+  "code": "https://github.com/wuxiyang1996/cos-play"
+ },
+ "xi2025rise": {
+  "code": "https://github.com/woooodyy/llm-agent-paper-list"
+ },
+ "xiang2025systematic": {
+  "code": "https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents"
+ },
+ "xie2020self": {
+  "code": "https://github.com/google-research/noisystudent"
+ },
+ "xie2024large": {
+  "code": "https://github.com/jun0wanan/awesome-large-multimodal-agents"
+ },
+ "xie2024showo": {
+  "code": "https://github.com/showlab/show-o"
+ },
+ "xu2026dynamic": {
+  "code": "https://github.com/LuckyGirl-XU/Awesome-Agent-Dynamic-Graphs"
+ },
+ "yang2024opro": {
+  "code": "https://github.com/google-deepmind/opro"
+ },
+ "yao2023react": {
+  "code": "https://github.com/ysymyth/ReAct"
+ },
+ "yao2025survey": {
+  "code": "https://github.com/HJYao00/Awesome-Agentic-MLLMs"
+ },
+ "yin2025godel": {
+  "code": "https://github.com/Arvid-pku/Godel_Agent"
+ },
+ "yue2025rlvr": {
+  "code": "https://github.com/LeapLabTHU/limit-of-RLVR"
+ },
+ "yuksekgonul2024textgrad": {
+  "code": "https://github.com/zou-group/textgrad"
+ },
+ "zelikman2022star": {
+  "code": "https://github.com/ezelikman/STaR"
+ },
+ "zelikman2023stop": {
+  "code": "https://github.com/microsoft/stop"
+ },
+ "zerogui": {
+  "code": "https://github.com/OpenGVLab/ZeroGUI"
+ },
+ "zetta": {
+  "code": "https://github.com/air-embodied-brain/Zetta-Embodiment"
+ },
+ "zhang2022memo": {
+  "code": "https://github.com/zhangmarvin/memo"
+ },
+ "zhang2024mathverse": {
+  "code": "https://github.com/ZrrSkywalker/MathVerse"
+ },
+ "zhang2025landscape": {
+  "code": "https://github.com/HHHHHejia/Awesome-AgenticLLM-RL-Papers"
+ },
+ "zhao2024expel": {
+  "code": "https://github.com/LeapLabTHU/ExpeL"
+ },
+ "zhao2026safetyrisks": {
+  "code": "https://github.com/helloechen/EvolvingSafety"
+ },
+ "zhou2023large": {
+  "code": "https://github.com/keirp/automatic_prompt_engineer"
+ },
+ "zuo2025ttrl": {
+  "code": "https://github.com/PRIME-RL/TTRL"
+ }
+}

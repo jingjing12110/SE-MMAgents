@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Self-Evolving Multimodal Agents · Cross-Scenario Survey</title>
+<meta name="description" content="{{DESC}}"/>
+<meta name="keywords" content="self-evolving agents, multimodal agents, self-improvement, multimodal reasoning, multimodal generation, GUI agents, web agents, embodied manipulation, vision-language-action, survey"/>
+<meta name="author" content="Jingjing Jiang"/>
+<meta name="citation_title" content="{{TITLE}}"/>
+<meta name="citation_author" content="Jiang, Jingjing"/>
+<meta name="citation_publication_date" content="2026"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="{{TITLE}}"/>
+<meta property="og:description" content="{{DESC}}"/>
+<meta property="og:url" content="{{PAGE_URL}}"/>
+<meta property="og:image" content="{{PAGE_URL}}static/images/framework.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{{TITLE}}"/>
+<meta name="twitter:description" content="{{DESC}}"/>
+<meta name="twitter:image" content="{{PAGE_URL}}static/images/framework.png"/>
+<link rel="icon" type="image/svg+xml" href="static/images/favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,600;0,700;1,400&display=swap"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous"/>
+<link rel="stylesheet" href="static/css/main.css"/>
+</head>
+<body>
+<div class="topbar">
+<div class="topbar-inner">
+<div class="brand">SE-MMAgents Survey</div>
+<nav class="nav">
+<a href="#abstract">Abstract</a>
+<a href="#framework">Framework</a>
+<a href="#asymmetry">Asymmetry</a>
+<a href="#taxonomy">Taxonomy</a>
+<a href="#library">Paper Library</a>
+<a href="#citation">Citation</a>
+</nav>
+</div>
+</div>
+
+<div class="page">
+<aside class="sidebar">
+<div class="side-card">
+<div class="side-title">Survey statistics</div>
+<div class="stat-grid">
+<div class="stat"><strong>{{N_REFS}}</strong><span>All papers</span></div>
+<div class="stat"><strong>{{N_ALL}}</strong><span>Curated papers</span></div>
+</div>
+</div>
+<div class="side-card">
+<div class="side-title">Two ceilings</div>
+<div style="font-family:'Spectral',Georgia,serif;font-size:15px;color:#374151;line-height:1.6">
+<p style="margin-bottom:8px"><span class="math">K̄</span> &nbsp;rollouts affordable per cycle under a common budget</p>
+<p style="margin-bottom:0"><span class="math">F̄</span> &nbsp;feedback fidelity attainable by admissible evaluators</p>
+</div>
+</div>
+<div class="side-card toc">
+<div class="side-title">Contents</div>
+<a href="#abstract">Abstract</a>
+<a href="#overview">Overview</a>
+<a href="#reading-guide">How to read this survey</a>
+<a href="#definition">What counts as self-evolving</a>
+<a href="#framework">The three-stage loop</a>
+<a href="#positioning">Positioning matrix</a>
+<a href="#asymmetry">Cross-scenario asymmetry</a>
+<a href="#taxonomy">Taxonomy</a>
+<a href="#library">Paper library</a>
+<a class="sub" href="#curated">Curated papers</a>
+{{TOC_SUB}}
+<a class="sub" href="#all-papers">All papers</a>
+{{TOC_ALL}}
+<a href="#citation">Citation</a>
+</div>
+</aside>
+
+<main class="main">
+<div class="hero">
+<div class="eyebrow">survey webpage</div>
+<h1>A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents</h1>
+<p class="hero-author">Jingjing Jiang</p>
+<p class="hero-meta">2026</p>
+<div class="actions">
+<a class="btn" href="{{ARXIV_URL}}" rel="noopener" target="_blank">Read the paper</a>
+<a class="btn" href="{{REPO_URL}}" rel="noopener" target="_blank">GitHub repository</a>
+<a class="btn" href="#framework">View framework</a>
+<a class="btn primary" href="#library">Browse curated papers</a>
+</div>
+<div class="scenario-pills">
+<span class="pill mr">Multimodal Reasoning</span>
+<span class="pill mg">Multimodal Generation</span>
+<span class="pill gw">GUI &amp; Web Navigation</span>
+<span class="pill em">Embodied Manipulation</span>
+</div>
+</div>
+
+<section id="abstract">
+<h2>Abstract</h2>
+<p class="lead">Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer. This survey investigates the structural source of asymmetric mechanism transfer across four scenarios: multimodal reasoning, multimodal generation, GUI and Web navigation, and embodied manipulation.</p>
+<p>We first formalize the self-evolving multimodal agent by four criteria and a differentia of self-reference, and adopt the three-stage self-evolving loop of <strong>experience generation</strong>, <strong>feedback acquisition</strong>, and <strong>update consolidation</strong> as our analytical framework to position the scenarios along ceilings on rollout count and feedback fidelity. Comparing self-evolving with fixed loops within each scenario separates the limitations that the scenario imposes from those inherent in the self-evolving design.</p>
+<p>We then recast each mechanism as a trade-off that raises a scarce factor by presupposing a task-structural resource, such as output equivalence or checkable outcomes, and judge it <strong>portable</strong>, <strong>conditional</strong>, <strong>blocked</strong>, or <strong>redundant</strong> across scenarios. We attribute the asymmetry to divergent combinations of scarce factors and resources across opposite transfer directions, and identify the matched-budget measurements that could overturn these still untested verdicts.</p>
+</section>
+
+<section id="overview">
+<h2>Overview</h2>
+<div class="figure-frame">
+<button aria-label="Open framework figure in full size" class="image-zoom-trigger" onclick="openImageModal('static/images/framework.png', this.querySelector('img').alt)" type="button">
+<img alt="The three-stage self-evolving loop and its six factors" class="overview-image" src="static/images/framework.png" loading="lazy" width="2192" height="651"/>
+</button>
+<div class="figure-caption"><strong>The three-stage self-evolving loop and its six factors.</strong> Each stage centers on one meta-operator, and its effectiveness <span class="math">𝒬<sub>k</sub></span> is the product of two factors. The filled ceilings <span class="math">K̄</span> and <span class="math">F̄</span> serve as the axes of the positioning matrix. The goal edge, fed by the trajectories and scores of cycle <span class="math">k</span>, reaches <span class="math">σ<sub>ω</sub></span> only when it is adaptive, and extensions of the agent edge into <span class="math">σ<sub>ω</sub></span>, FA, or UC are not drawn.</div>
+<div class="zoom-hint">Click the figure to view full screen.</div>
+</div>
+</section>
+
+<section id="reading-guide">
+<h2>How to read this survey</h2>
+<div class="two-col">
+<div>
+<h3 style="font-size:20px;margin-bottom:8px;">If you are new to the area</h3>
+<p>Start with the definition and the three-stage loop, then locate the four scenarios on the positioning matrix.</p>
+<p>The portability table then shows, for each mechanism, which target scenarios hold the resource it presupposes.</p>
+</div>
+<div>
+<h3 style="font-size:20px;margin-bottom:8px;">If you are using the page as a reference</h3>
+<p>Jump directly to the library tables. The search bar matches method names, titles, venues, feedback signals, and backbones, and the filters separate scenarios as well as weight-updating from training-free loops.</p>
+<p>The role tags in the feedback and update columns show whether the agent, a bootstrap artifact, or the environment realizes each meta-operator.</p>
+</div>
+</div>
+</section>
+
+<section id="definition">
+<h2>What counts as a self-evolving multimodal agent</h2>
+<p>The surveyed object is defined through a genus and a differentia. The genus comprises autonomous learning loops that satisfy four criteria, and the differentia, <em>self-reference</em>, requires the agent to realize at least one component of its own loop.</p>
+<div class="criteria-grid">
+<div class="crit"><span class="tag">C1</span><strong>Autonomy</strong>The agent operates without human intervention across goals, actions, feedback, and updates after initialization.</div>
+<div class="crit"><span class="tag">C2</span><strong>Freshness</strong>Experience is generated under the current policy.</div>
+<div class="crit"><span class="tag">C3</span><strong>Durability</strong>Updates persist beyond the episode boundary.</div>
+<div class="crit"><span class="tag">C4</span><strong>Recurrence</strong>The loop iterates across cycles.</div>
+<div class="crit sr"><span class="tag">SR</span><strong>Self-reference</strong>The agent realizes the goal sampler <span class="math">σ<sub>ω</sub></span>, the feedback function <span class="math">V<sub>ν</sub></span>, or the evolution operator <span class="math">f<sub>ζ</sub></span>.</div>
+</div>
+<div class="overview-grid" style="margin-top:18px">
+<div class="figure-frame">
+<button aria-label="Open dual-scale loop figure in full size" class="image-zoom-trigger" onclick="openImageModal('static/images/dual_scale_loop.png', this.querySelector('img').alt)" type="button">
+<img alt="Dual-scale learning loop and its defining conditions" class="overview-image" src="static/images/dual_scale_loop.png" loading="lazy" width="1886" height="851"/>
+</button>
+<div class="figure-caption"><strong>Dual-scale learning loop and its defining conditions.</strong> Within an episode (green), <span class="math">𝒜<sub>k</sub></span> acts in <span class="math">𝒫<sub>g</sub></span> with its persistent components fixed. Across episodes (blue), each cycle samples goals with <span class="math">σ<sub>ω</sub></span>, scores the resulting batch <span class="math">𝒟<sub>k</sub></span> with <span class="math">V<sub>ν</sub></span>, and updates the agent with <span class="math">f<sub>ζ</sub></span>. Blue tags mark where each genus criterion applies, and orange SR tags mark the meta-operators, at least one of which a self-evolving agent must realize.</div>
+</div>
+<div class="overview-note">
+<div class="overview-note-title">Fixed loops as controls</div>
+<ul>
+<li><strong>Definition</strong>Loops in the genus that lack self-reference are <em>fixed loops</em>, for instance reinforcement learning against pre-collected answer keys under a stationary sampler.</li>
+<li><strong>Role</strong>They serve as controls in every scenario, separating the constraints a scenario imposes from the intrinsic effects of self-evolution.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="framework">
+<h2>The three-stage self-evolving loop</h2>
+<p>Each cycle decomposes into three stages, and each stage's bottleneck is formalized through two governing factors. The decomposition follows the generate, evaluate, and update pattern of Expert Iteration and ReST, and the analysis adds the factorization, the ceiling axes, and the cross-cycle edges.</p>
+<div class="stage-grid">
+<div class="stage-card eg"><h4 style="color:var(--eg)">Stage 1 · Experience Generation (EG)</h4><div class="op">goal sampler <span class="math">σ<sub>ω</sub></span> and rollout</div>The goal sampler draws a batch of goals, and the current agent rolls out under each goal, producing the trajectory batch. EG bounds how fast and how broadly the loop can improve.<div class="factors"><span class="factor axis"><span class="math">K̄</span> / <span class="math">K<sub>k</sub></span> rollout count</span><span class="factor"><span class="math">I<sub>𝒜<sub>k</sub></sub></span> information gain</span></div></div>
+<div class="stage-card fa"><h4 style="color:var(--fa)">Stage 2 · Feedback Acquisition (FA)</h4><div class="op">feedback function <span class="math">V<sub>ν</sub></span></div>The feedback function maps the trajectory batch to scores, preferences, or critiques used for the update. FA is the only stage that carries information about the idealized task reward.<div class="factors"><span class="factor axis"><span class="math">F̄</span> / <span class="math">F<sub>ν</sub></span> fidelity</span><span class="factor"><span class="math">L<sub>ν</sub></span> credit localization</span></div></div>
+<div class="stage-card uc"><h4 style="color:var(--uc)">Stage 3 · Update Consolidation (UC)</h4><div class="op">evolution operator <span class="math">f<sub>ζ</sub></span></div>The evolution operator writes the scored batch into at least one persistent component, namely parameters, memory, tools, or instructions. UC determines whether updates persist and generalize.<div class="factors"><span class="factor"><span class="math">S<sub>ζ</sub></span> retention</span><span class="factor"><span class="math">G<sub>ζ</sub></span> generalization</span></div></div>
+</div>
+<div class="note">Across cycles, the <strong>agent edge</strong> carries the updated agent into the next rollout and, when the evaluator reads the agent, into the next feedback stage. The <strong>goal edge</strong> carries the updated history into the goal sampler and opens only when the sampler is adaptive. Five degradation modes travel along these paths: compounding reward hacking, and distribution shift along the agent edge or the environment path; forgetting and plasticity loss as a moving goal distribution makes parameter writes interfere; and curriculum collapse and model collapse, which contract the support of EG. The agent-edge extension into UC surfaces through erroneous writes.</div>
+</section>
+
+<section id="positioning">
+<h2>Cross-scenario positioning matrix</h2>
+<div class="overview-grid">
+<div class="figure-frame">
+<button aria-label="Open positioning matrix in full size" class="image-zoom-trigger" onclick="openImageModal('static/images/positioning_matrix.png', this.querySelector('img').alt)" type="button">
+<img alt="Cross-scenario positioning matrix" class="overview-image" src="static/images/positioning_matrix.png" loading="lazy" width="1069" height="521"/>
+</button>
+<div class="figure-caption"><strong>Cross-scenario positioning matrix.</strong> The axes are the scenario-fixed ceilings <span class="math">K̄</span> and <span class="math">F̄</span>, both decreasing away from the origin. Each scenario sits at the inferred height of its ceilings, with shading deepening from MR (neither binding) to EM (both binding). The MG, GW, and EM cells denote open-ended prompts, sandboxed environments with state scripts, and physical deployment, and dashed arrows show the displacement of closed-form generation sub-families, of navigation on live websites, and of simulated manipulation.</div>
+</div>
+<div>
+<p>Each scenario imposes ceilings on the rollouts affordable per cycle (<span class="math">K̄</span>) and the feedback fidelity attainable by admissible evaluators (<span class="math">F̄</span>), which span a two-dimensional positioning matrix. Methods choose operating points below these ceilings, and the scenario fixes only the ceilings.</p>
+<div class="quad-grid">
+<div class="quad mr"><strong>Multimodal Reasoning</strong>Both ceilings high. Rollouts are single decoding passes and answers admit exact match.</div>
+<div class="quad mg"><strong>Multimodal Generation</strong>Low <span class="math">F̄</span>. Open-ended images and videos have no reference output.</div>
+<div class="quad gw"><strong>GUI &amp; Web Navigation</strong>Low <span class="math">K̄</span>. Multi-step episodes pay environment latency at every step.</div>
+<div class="quad em"><strong>Embodied Manipulation</strong>Both ceilings low on hardware, with simulation raising both.</div>
+</div>
+</div>
+</div>
+<div class="note">The matrix identifies which ceilings bind in each scenario but alone cannot determine whether a given mechanism is portable. Quadrant placements are inferred from single-scenario evidence, and the backbone's pretraining coverage remains a confound.</div>
+</section>
+
+<section id="asymmetry">
+<h2>Cross-scenario asymmetry</h2>
+<p>Each self-evolving mechanism is a <strong>trade-off</strong>, in which the agent raises a scarce factor by replacing a fixed component with its own records, proposals, judgments, or memory writes, at the price of presupposing a task-structural resource, such as output equivalence or checkable outcomes. The asymmetry is attributed to the different combinations of scarce factors and resources that the two directions of a scenario pair encounter.</p>
+<div class="verdict-legend">
+<div><span class="v port">portable</span> the target holds the resource the mechanism presupposes</div>
+<div><span class="v cond">conditional</span> the resource holds only on a sub-family or through an adaptation, or the verdict is capped by an unobservable outcome</div>
+<div><span class="v block">blocked</span> the mechanism judges or creates goals whose outcome is unobservable</div>
+<div><span class="v red">redundant</span> the factor the mechanism raises is not scarce in the target</div>
+</div>
+<h3 style="font-size:19px;margin-top:20px">Portability of self-evolving mechanisms across target scenarios</h3>
+<div class="table-wrap"><table class="verdict-table">
+<thead><tr><th>Mechanism</th><th>MR</th><th>MG</th><th>GW</th><th>EM</th></tr></thead>
+<tbody>
+{{VERDICT_ROWS}}
+</tbody></table></div>
+<div class="footnotes">* reported instance. A superscript limits an entry to a sub-family, an unmarked entry covers the rest of its cell, and EM entries refer to physical hardware unless marked e. a: key or program-computed answer. b: no key, with the questions self-posed. c: outcome checked online. d: no online check. e: simulation. f: success visible as object motion. g: no visual evidence of success, as in background-state goals in navigation and contact-rich assembly on hardware. Verdicts are untested preconditions, not transfer gains.</div>
+
+<div class="figure-frame wide" style="margin-top:20px">
+<button aria-label="Open portability figure in full size" class="image-zoom-trigger" onclick="openImageModal('static/images/portability.png', this.querySelector('img').alt)" type="button">
+<img alt="Directed portability on the positioning matrix" class="overview-image" src="static/images/portability.png" loading="lazy" width="2135" height="892"/>
+</button>
+<div class="figure-caption"><strong>Directed portability on the positioning matrix.</strong> Each arrow lists the mechanisms portable or conditional in its source but redundant or lower on its target, and dashed boxes list the verdicts on GW and EM goals with unobservable outcomes. Goal mechanisms: allocation, agent-posed and record-conditioned goals, and program-checkable families. Judges: vote and self-judgment. Estimators: refit verifier and frozen estimator. Feedback mechanisms: judges, estimators, and generator-confidence reward.</div>
+<div class="zoom-hint">Click the figure to view full screen.</div>
+</div>
+
+<details class="subgroup" style="margin-top:20px">
+<summary><span>Trade-offs and degradation of self-evolving mechanisms</span><span class="count-badge small">11 mechanisms</span></summary>
+<p class="sub-desc">(T) task-structural resource, (M) capability of the agent's model, and an artifact authored before the loop if unmarked. Evidence stops short of cross-round measurement for most degradation modes.</p>
+<div class="table-wrap"><table class="tradeoff-table">
+<thead><tr><th>Mechanism</th><th>Entry</th><th>Raises</th><th>Requires</th><th>Pays</th><th>Degradation</th></tr></thead>
+<tbody>
+{{TRADE_ROWS}}
+</tbody></table></div>
+</details>
+</section>
+
+<section id="taxonomy">
+<h2>Taxonomy</h2>
+<p>The four scenario chapters group methods by the meta-operator through which they answer the scenario's binding constraint, and the evaluation chapter adds benchmarks of self-evolving capability. Each item links directly into the corresponding part of the paper library.</p>
+<div class="tax-grid five">
+{{TAX}}
+</div>
+<div class="note">The library contains {{N_METHODS}} self-evolving methods and {{N_BENCH}} self-evolution benchmarks, {{N_ALL}} entries in total. Methods marked <em>training-free</em> keep a frozen backbone and evolve memory, tools, skills, or instructions ({{N_TF}} of {{N_METHODS}}).</div>
+</section>
+
+<section id="library">
+<h2>Paper library</h2>
+<p>The library has two parts. <strong>Curated papers</strong> follow the scenario taxonomies of the survey and record, for each self-evolving method, how feedback is acquired and how updates are consolidated. <strong>All papers</strong> list every reference cited in the survey under the chapter where it is first cited.</p>
+<div class="legend-row" id="roleLegend"><span><span class="role A">A</span>agent</span><span><span class="role B">B</span>bootstrap (fixed before the loop)</span><span><span class="role E">E</span>environment or task generation</span><span>† reported scorer</span></div>
+<div class="toolbar">
+<div class="search-wrap">
+<input aria-label="Search papers" id="paperSearch" placeholder="Search by method, title, venue, signal, or backbone…" type="search"/>
+</div>
+<div class="chip-group">
+<button class="chip active" data-filter="all" type="button">All</button>
+<button class="chip mr" data-filter="mr" type="button">Reasoning</button>
+<button class="chip mg" data-filter="mg" type="button">Generation</button>
+<button class="chip gw" data-filter="gw" type="button">GUI &amp; Web</button>
+<button class="chip em" data-filter="em" type="button">Embodied</button>
+<button class="chip" data-filter="bench" type="button">Benchmarks</button>
+<span class="chip-sep"></span>
+<button class="chip" data-filter="weights" type="button">Weight-updating</button>
+<button class="chip" data-filter="tf" type="button">Training-free</button>
+<span class="chip-sep"></span>
+<button class="chip" data-filter="ref" type="button">All papers only</button>
+</div>
+<div class="toolbar-meta"><span id="visibleCount">{{N_ALL}}</span> visible library rows</div>
+</div>
+<div class="lib-part" id="curated">
+<div class="part-head"><h3>Curated papers</h3><div class="count-badge">{{N_ALL}} entries</div></div>
+<p class="part-desc">Self-evolving methods from the four scenario taxonomies and the self-evolution benchmarks of the evaluation chapter. Role tags mark which party realizes each meta-operator.</p>
+{{LIB}}
+</div>
+<div class="lib-part" id="all-papers">
+<div class="part-head"><h3>All papers</h3><div class="count-badge">{{N_REFS}} references</div></div>
+<p class="part-desc">Every reference cited in the survey, listed under the chapter where it is first cited and ordered by year.</p>
+{{ALLREFS}}
+</div>
+</section>
+
+<section id="citation">
+<h2>Citation</h2>
+<p>If you find this survey useful, please cite it as follows.</p>
+<div class="pre-wrap">
+<button class="copy-btn" type="button" onclick="copyBib(this)">Copy</button>
+<pre id="bibtex">{{BIB}}</pre>
+</div>
+</section>
+</main>
+</div>
+
+<div aria-hidden="true" class="image-modal" id="imageModal" onclick="closeImageModal(event)">
+<div class="image-modal-inner">
+<button aria-label="Close enlarged figure" class="image-modal-close" onclick="closeImageModal(event)" type="button">×</button>
+<img alt="" id="modalImage" onclick="toggleModalZoom(event)" src="static/images/framework.png"/>
+</div>
+</div>
+<footer>
+© 2026 Jingjing Jiang. Page layout adapted from the <a href="https://selfimproving-agent.github.io/" rel="noopener" target="_blank">Self-Improvements in Modern Agentic Systems</a> survey page and the Academic Project Page Template.
+</footer>
+<script src="static/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+<script>document.querySelectorAll('.math[data-tex]').forEach(function(el){katex.render(el.getAttribute('data-tex'), el, {throwOnError: false});});</script>
+</body>
+</html>

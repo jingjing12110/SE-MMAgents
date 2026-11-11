@@ -1,0 +1,3833 @@
+[
+ {
+  "chapter": "Introduction",
+  "file": "chapters/1_intro",
+  "papers": [
+   {
+    "key": "durante2024agent",
+    "title": "Agent AI: Surveying the Horizons of Multimodal Interaction",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2401.03568",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "xie2024large",
+    "title": "Large Multimodal Agents: A Survey",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2402.15116",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "yao2025survey",
+    "title": "A Survey on Agentic Multimodal Large Language Models",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.10991",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "hu2026guirl",
+    "title": "GUI Agents with Reinforcement Learning: Toward Digital Inhabitants",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.27955",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "visplay",
+    "title": "VisPlay: Self-Evolving Vision-Language Models",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2511.15661",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmzero",
+    "title": "Self-Evolving Vision Language Models for Structured Visual Understanding",
+    "year": "2026",
+    "venue": "EMNLP",
+    "arxiv": "2603.09206",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vzero",
+    "title": "V-Zero: Self-Improving Multimodal Reasoning with Zero Annotation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.10094",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "activezero",
+    "title": "Active Zero: Self-Evolving Vision-Language Models through Active Environment Exploration",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.11241",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "solace",
+    "title": "Improving Text-to-Image Generation with Intrinsic Self-Confidence Rewards",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2603.00918",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "suder",
+    "title": "SUDER: Self-Improving Unified Large Multimodal Models for Understanding and Generation with Dual Self-Rewards",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2506.07963",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "internalgap",
+    "title": "Turning Internal Gap into Self-Improvement: Promoting the Generation-Understanding Unification in MLLMs",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2507.16663",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "silmm",
+    "title": "SILMM: Self-Improving Large Multimodal Models for Compositional Text-to-Image Generation",
+    "year": "2025",
+    "venue": "CVPR",
+    "arxiv": "2412.05818",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "corlulm",
+    "title": "Co-Reinforcement Learning for Unified Multimodal Understanding and Generation",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2505.17534",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "digirl",
+    "title": "DigiRL: Training In-the-Wild Device-Control Agents with Autonomous Reinforcement Learning",
+    "year": "2024",
+    "venue": "NeurIPS",
+    "arxiv": "2406.11896",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "acurl",
+    "title": "Autonomous Continual Learning for Environment Adaptation of Computer-Use Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.10356",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "seagent",
+    "title": "SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience",
+    "year": "2026",
+    "venue": "ICML",
+    "arxiv": "2508.04700",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mobilerl",
+    "title": "MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2509.18119",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evovla",
+    "title": "EvoVLA: Self-Evolving Vision-Language-Action Model",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2511.16166",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "siefm",
+    "title": "Self-Improving Embodied Foundation Models",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2509.15155",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "searrobot",
+    "title": "SEAR: Self-Evolving Agentic Robotics",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.18792",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "findcantdo",
+    "title": "Find Something You Can't Do: Agentic Real-World Reinforcement Learning for Self-Improving VLA Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.32069",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evolmm",
+    "title": "EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2511.16672",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmupt",
+    "title": "First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2505.22453",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "worldvlaloop",
+    "title": "World-VLA-Loop: Closed-Loop Learning of Video World Model and VLA Policy",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.06508",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "merl",
+    "title": "Trust-Calibrated VLA Policy Post-Training with Evolving Imagination",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.16517",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "hu2025osagents",
+    "title": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
+    "year": "2025",
+    "venue": "ACL",
+    "arxiv": "2508.04482",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "huang2026agentic",
+    "title": "Agentic Visual Generation: From Generative Models to Agentic Control",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.06758",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "fang2025comprehensive",
+    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2508.07407",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "jiang2025adaptation",
+    "title": "Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2512.16301",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "chen2026recursive",
+    "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.07663",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "gao2025survey",
+    "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
+    "year": "2026",
+    "venue": "TMLR",
+    "arxiv": "2507.21046",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pu2026trustworthy",
+    "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.35193",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ren2026selfimprovements",
+    "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.13104",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "xiang2025systematic",
+    "title": "A Systematic Survey of Self-Evolving Agents: From Model-Centric to Environment-Driven Co-Evolution",
+    "year": "2026",
+    "venue": "TechRxiv",
+    "arxiv": "",
+    "doi": "10.36227/techrxiv.177203250.05832634/v2",
+    "url": ""
+   },
+   {
+    "key": "xu2026dynamic",
+    "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.18104",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zhang2025landscape",
+    "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+    "year": "2026",
+    "venue": "TMLR",
+    "arxiv": "2509.02547",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "deng2025selfimprovement",
+    "title": "Self-Improvement in Multimodal Large Language Models: A Survey",
+    "year": "2025",
+    "venue": "EMNLP Findings",
+    "arxiv": "2510.02665",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "feng2026selfevolving",
+    "title": "Self-Evolving Embodied AI",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.04411",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "guo2026memory",
+    "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.19366",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "asg",
+    "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.27376",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2024survey",
+    "title": "A Survey on Large Language Model Based Autonomous Agents",
+    "year": "2024",
+    "venue": "Front. Comput. Sci.",
+    "arxiv": "2308.11432",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "xi2025rise",
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "year": "2025",
+    "venue": "Sci. China Inf. Sci.",
+    "arxiv": "2309.07864",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Preliminaries",
+  "file": "chapters/2_preliminary",
+  "papers": [
+   {
+    "key": "russell2009artificial",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "year": "2009",
+    "venue": "Prentice Hall",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://aima.cs.berkeley.edu/"
+   },
+   {
+    "key": "qwen25vl",
+    "title": "Qwen2.5-VL Technical Report",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2502.13923",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "bai2025qwen3",
+    "title": "Qwen3-VL Technical Report",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2511.21631",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "chen2024internvl",
+    "title": "InternVL: Scaling Up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+    "year": "2024",
+    "venue": "CVPR",
+    "arxiv": "2312.14238",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "team2024chameleon",
+    "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2405.09818",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "xie2024showo",
+    "title": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2408.12528",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "chen2025janus",
+    "title": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2501.17811",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2024emu3",
+    "title": "Emu3: Next-Token Prediction Is All You Need",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2409.18869",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "brohan2023rt",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "year": "2023",
+    "venue": "CoRL",
+    "arxiv": "2307.15818",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "willard2023outlines",
+    "title": "Efficient Guided Generation for Large Language Models",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2307.09702",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "geng2023grammar",
+    "title": "Grammar-Constrained Decoding for Structured NLP Tasks without Finetuning",
+    "year": "2023",
+    "venue": "EMNLP",
+    "arxiv": "2305.13971",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dong2024xgrammar",
+    "title": "XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2411.15100",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "packer2024memgpt",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2310.08560",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "yao2023react",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": "2023",
+    "venue": "ICLR",
+    "arxiv": "2210.03629",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "schick2023toolformer",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "year": "2023",
+    "venue": "NeurIPS",
+    "arxiv": "2302.04761",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "qin2024toolllm",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-World APIs",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2307.16789",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "patil2024gorilla",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "year": "2024",
+    "venue": "NeurIPS",
+    "arxiv": "2305.15334",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "kaelbling1998planning",
+    "title": "Planning and Acting in Partially Observable Stochastic Domains",
+    "year": "1998",
+    "venue": "Artificial Intelligence",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://doi.org/10.1016/S0004-3702(98)00023-X"
+   },
+   {
+    "key": "schaul2015uvfa",
+    "title": "Universal Value Function Approximators",
+    "year": "2015",
+    "venue": "ICML",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://proceedings.mlr.press/v37/schaul15.html"
+   },
+   {
+    "key": "simplevlarl",
+    "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2509.09674",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2024robogen",
+    "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+    "year": "2024",
+    "venue": "ICML",
+    "arxiv": "2311.01455",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pvse",
+    "title": "Program-Verified Self-Evolution for Vision-Language Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.33855",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "shao2024deepseekmath",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2402.03300",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zhao2024expel",
+    "title": "ExpeL: LLM Agents Are Experiential Learners",
+    "year": "2024",
+    "venue": "AAAI",
+    "arxiv": "2308.10144",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2023voyager",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "year": "2024",
+    "venue": "TMLR",
+    "arxiv": "2305.16291",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wu2026co",
+    "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.20987",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agenticvla",
+    "title": "Agentic-VLA: Efficient Online Adaptation for Vision-Language-Action Models",
+    "year": "2026",
+    "venue": "ICML",
+    "arxiv": "2605.22896",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "perfguard",
+    "title": "PerfGuard: A Performance-Aware Agent for Visual Content Generation",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2601.22571",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sharma2022autonomous",
+    "title": "Autonomous Reinforcement Learning: Formalism and Benchmarking",
+    "year": "2022",
+    "venue": "ICLR",
+    "arxiv": "2112.09605",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "xie2020self",
+    "title": "Self-Training with Noisy Student Improves ImageNet Classification",
+    "year": "2020",
+    "venue": "CVPR",
+    "arxiv": "1911.04252",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sohn2020fixmatch",
+    "title": "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence",
+    "year": "2020",
+    "venue": "NeurIPS",
+    "arxiv": "2001.07685",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pham2021meta",
+    "title": "Meta Pseudo Labels",
+    "year": "2021",
+    "venue": "CVPR",
+    "arxiv": "2003.10580",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sun2020test",
+    "title": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts",
+    "year": "2020",
+    "venue": "ICML",
+    "arxiv": "1909.13231",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2021tent",
+    "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+    "year": "2021",
+    "venue": "ICLR",
+    "arxiv": "2006.10726",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zhang2022memo",
+    "title": "MEMO: Test Time Robustness via Adaptation and Augmentation",
+    "year": "2022",
+    "venue": "NeurIPS",
+    "arxiv": "2112.02624",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2022continual",
+    "title": "Continual Test-Time Domain Adaptation",
+    "year": "2022",
+    "venue": "CVPR",
+    "arxiv": "2203.13591",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "niu2022efficient",
+    "title": "Efficient Test-Time Model Adaptation without Forgetting",
+    "year": "2022",
+    "venue": "ICML",
+    "arxiv": "2204.02610",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2023selfconsistency",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "year": "2023",
+    "venue": "ICLR",
+    "arxiv": "2203.11171",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "snell2025scaling",
+    "title": "Scaling LLM Test-Time Compute Optimally Can Be More Effective than Scaling Parameters for Reasoning",
+    "year": "2025",
+    "venue": "ICLR",
+    "arxiv": "2408.03314",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "corvid",
+    "title": "Corvid: Improving Multimodal Large Language Models Towards Chain-of-Thought Reasoning",
+    "year": "2025",
+    "venue": "ICCV",
+    "arxiv": "2507.07424",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "madaan2023self",
+    "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "year": "2023",
+    "venue": "NeurIPS",
+    "arxiv": "2303.17651",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "gou2024critic",
+    "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2305.11738",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "chen2023teaching",
+    "title": "Teaching Large Language Models to Self-Debug",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2304.05128",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dhuliawala2023chain",
+    "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+    "year": "2024",
+    "venue": "ACL Findings",
+    "arxiv": "2309.11495",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ross2011reduction",
+    "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+    "year": "2011",
+    "venue": "AISTATS",
+    "arxiv": "1011.0686",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pistar06",
+    "title": "*_0.6: a VLA That Learns From Experience",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2511.14759",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2023selfinstruct",
+    "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+    "year": "2023",
+    "venue": "ACL",
+    "arxiv": "2212.10560",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rest",
+    "title": "Reinforced Self-Training (ReST) for Language Modeling",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2308.08998",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "singh2023rest",
+    "title": "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models",
+    "year": "2024",
+    "venue": "TMLR",
+    "arxiv": "2312.06585",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zelikman2022star",
+    "title": "STaR: Bootstrapping Reasoning with Reasoning",
+    "year": "2022",
+    "venue": "NeurIPS",
+    "arxiv": "2203.14465",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "kirkpatrick2017overcoming",
+    "title": "Overcoming Catastrophic Forgetting in Neural Networks",
+    "year": "2017",
+    "venue": "PNAS",
+    "arxiv": "1612.00796",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "lopez2017gradient",
+    "title": "Gradient Episodic Memory for Continual Learning",
+    "year": "2017",
+    "venue": "NeurIPS",
+    "arxiv": "1706.08840",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "crlvla",
+    "title": "CRL-VLA: Continual Vision-Language-Action Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.03445",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ouyang2022training",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "year": "2022",
+    "venue": "NeurIPS",
+    "arxiv": "2203.02155",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "bai2022training",
+    "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+    "year": "2022",
+    "venue": "arXiv",
+    "arxiv": "2204.05862",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "touvron2023llama",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2307.09288",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "lambert2024tulu",
+    "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2411.15124",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "kimi2025k15",
+    "title": "Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2501.12599",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zerogui",
+    "title": "ZeroGUI: Automating Online GUI Learning at Zero Human Cost",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.23762",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "yuksekgonul2024textgrad",
+    "title": "TextGrad: Automatic ``Differentiation'' via Text",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2406.07496",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "symbomni",
+    "title": "SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.12042",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "uimem",
+    "title": "UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.05832",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "azr",
+    "title": "Absolute Zero: Reinforced Self-Play Reasoning with Zero Data",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2505.03335",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "portelas2020automatic",
+    "title": "Automatic Curriculum Learning for Deep RL: A Short Survey",
+    "year": "2020",
+    "venue": "IJCAI",
+    "arxiv": "2003.04664",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "yuan2024self",
+    "title": "Self-Rewarding Language Models",
+    "year": "2024",
+    "venue": "ICML",
+    "arxiv": "2401.10020",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zuo2025ttrl",
+    "title": "TTRL: Test-Time Reinforcement Learning",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2504.16084",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "fernando2023promptbreeder",
+    "title": "Promptbreeder: Self-Referential Self-Improvement via Prompt Evolution",
+    "year": "2024",
+    "venue": "ICML",
+    "arxiv": "2309.16797",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zelikman2023stop",
+    "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2310.02304",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "yin2025godel",
+    "title": "Godel Agent: A Self-Referential Agent Framework for Recursively Self-Improvement",
+    "year": "2025",
+    "venue": "ACL",
+    "arxiv": "2410.04444",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "panickssery2024llm",
+    "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+    "year": "2024",
+    "venue": "NeurIPS",
+    "arxiv": "2404.13076",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "cheng2026comprehensive",
+    "title": "A Comprehensive Survey of the LLM-Based Agent: The Contextual Cognition Perspective",
+    "year": "2026",
+    "venue": "Preprints",
+    "arxiv": "",
+    "doi": "10.20944/preprints202604.0935.v1",
+    "url": ""
+   },
+   {
+    "key": "liu2025metacognitive",
+    "title": "Position: Truly Self-Improving Agents Require Intrinsic Metacognitive Learning",
+    "year": "2025",
+    "venue": "ICML",
+    "arxiv": "2506.05109",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dartgui",
+    "title": "Efficient Multi-Turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2509.23866",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "shinn2023reflexion",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "year": "2023",
+    "venue": "NeurIPS",
+    "arxiv": "2303.11366",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2019paired",
+    "title": "Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions",
+    "year": "2019",
+    "venue": "arXiv",
+    "arxiv": "1901.01753",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "jiang2021prioritized",
+    "title": "Prioritized Level Replay",
+    "year": "2021",
+    "venue": "ICML",
+    "arxiv": "2010.03934",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dennis2020emergent",
+    "title": "Emergent Complexity and Zero-Shot Transfer via Unsupervised Environment Design",
+    "year": "2020",
+    "venue": "NeurIPS",
+    "arxiv": "2012.02096",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "parkerholder2022evolving",
+    "title": "Evolving Curricula with Regret-Based Environment Design",
+    "year": "2022",
+    "venue": "ICML",
+    "arxiv": "2203.01302",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sukhbaatar2018intrinsic",
+    "title": "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play",
+    "year": "2018",
+    "venue": "ICLR",
+    "arxiv": "1703.05407",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "campero2021learning",
+    "title": "Learning with AMIGo: Adversarially Motivated Intrinsic Goals",
+    "year": "2021",
+    "venue": "ICLR",
+    "arxiv": "2006.12122",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "anthony2017thinking",
+    "title": "Thinking Fast and Slow with Deep Learning and Tree Search",
+    "year": "2017",
+    "venue": "NeurIPS",
+    "arxiv": "1705.08439",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "silver2018general",
+    "title": "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play",
+    "year": "2018",
+    "venue": "Science",
+    "arxiv": "1712.01815",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "The Three-Stage Self-Evolving Loop",
+  "file": "chapters/3_framework",
+  "papers": [
+   {
+    "key": "uitars2",
+    "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2509.02544",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rise",
+    "title": "RISE: Reliable Improvement in Self-Evolving Vision-Language Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.20914",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evovid",
+    "title": "EvoVid: Temporal-Centric Self-Evolution for Video Large Language Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.21931",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "unirl",
+    "title": "UniRL: Self-Improving Unified Multimodal Models via Supervised and Reinforcement Learning",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.23380",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "iris",
+    "title": "IRIS: Intrinsic Reward Image Synthesis",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2509.25562",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mobileguirl",
+    "title": "MobileGUI-RL: Advancing Mobile GUI Agent through Reinforcement Learning in Online Environment",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2507.05720",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wu2025selfplay",
+    "title": "Self-Play Only Evolves When Self-Synthetic Pipeline Ensures Learnable Information Gain",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.02218",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "chen2023universal",
+    "title": "Universal Self-Consistency for Large Language Model Generation",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2311.17311",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "guo2025deepseekr1",
+    "title": "DeepSeek-R1 Incentivizes Reasoning in LLMs through Reinforcement Learning",
+    "year": "2025",
+    "venue": "Nature",
+    "arxiv": "2501.12948",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "huang2025vision",
+    "title": "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2503.06749",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "uigenie",
+    "title": "UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-Based Mobile GUI Agents",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2505.21496",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "diao2023active",
+    "title": "Active Prompting with Chain-of-Thought for Large Language Models",
+    "year": "2024",
+    "venue": "ACL",
+    "arxiv": "2302.12246",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "du2023guiding",
+    "title": "Guiding Pretraining in Reinforcement Learning with Large Language Models",
+    "year": "2023",
+    "venue": "ICML",
+    "arxiv": "2302.06692",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2024gensim",
+    "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2310.01361",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "guigenesis",
+    "title": "GUI-Genesis: Automated Synthesis of Efficient Environments with Verifiable Rewards for GUI Agent Post-Training",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.14093",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "webgym",
+    "title": "WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.02439",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agtworld",
+    "title": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.12065",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mobilejudgebench",
+    "title": "Benchmarking LLM Judges for Mobile Agent Evaluation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.11434",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dern2026vlmjudges",
+    "title": "Vision-Language Judges Prevent Reward Hacking in Robot Manipulation RL",
+    "year": "2026",
+    "venue": "NeurIPS Workshop",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://openreview.net/forum?id=C1qMGJU0IF"
+   },
+   {
+    "key": "magicguirms",
+    "title": "MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.13060",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "scvla",
+    "title": "Self-Correcting VLA: Online Action Refinement via Sparse World Imagination",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.21633",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "cwi",
+    "title": "Self-Evolving Code-with-Image Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.11292",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "coderl",
+    "title": "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning",
+    "year": "2022",
+    "venue": "NeurIPS",
+    "arxiv": "2207.01780",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rltf",
+    "title": "RLTF: Reinforcement Learning from Unit Test Feedback",
+    "year": "2023",
+    "venue": "TMLR",
+    "arxiv": "2307.04349",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rmrl",
+    "title": "RM-RL: Role-Model Reinforcement Learning for Precise Robot Manipulation",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.15189",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ccselfreward",
+    "title": "Class-Conditional Self-Reward Mechanism for Improved Text-to-Image Models",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2405.13473",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "srum",
+    "title": "SRUM: Fine-Grained Self-Rewarding for Unified Multimodal Models",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.12784",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mstar",
+    "title": "Diving into Self-Evolving Training for Multimodal Reasoning",
+    "year": "2025",
+    "venue": "ICML",
+    "arxiv": "2412.17451",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wang2024mathshepherd",
+    "title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-Step without Human Annotations",
+    "year": "2024",
+    "venue": "ACL",
+    "arxiv": "2312.08935",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "cui2025prime",
+    "title": "Process Reinforcement through Implicit Rewards",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2502.01456",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "lrm",
+    "title": "Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.16065",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sarm2",
+    "title": "SARM2: Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipulation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.10305",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evolvevla",
+    "title": "EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2512.14666",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "smartsnap",
+    "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2512.22322",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pan2024feedback",
+    "title": "Feedback Loops with Language Models Drive In-Context Reward Hacking",
+    "year": "2024",
+    "venue": "ICML",
+    "arxiv": "2402.06627",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "videozero",
+    "title": "Video-Zero: Self-Evolution Video Understanding",
+    "year": "2026",
+    "venue": "NeurIPS",
+    "arxiv": "2605.14733",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "simplerecipe",
+    "title": "Simple Recipe Works: Vision-Language-Action Models Are Natural Continual Learners with Reinforcement Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.11653",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mobileagente",
+    "title": "Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2501.11733",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "webcoach",
+    "title": "WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2511.12997",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "traces2skills",
+    "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.04869",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sidiffagent",
+    "title": "SIDiffAgent: Self-Improving Diffusion Agent",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.02051",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "embodiedrsi",
+    "title": "EmbodiedRSI: Active Continual Robot Learning through Hypothesis-Guided Co-Evolution",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.10498",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "lai2024step",
+    "title": "Step-DPO: Step-Wise Preference Optimization for Long-Chain Reasoning of LLMs",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2406.18629",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "webagentr1",
+    "title": "WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
+    "year": "2025",
+    "venue": "EMNLP",
+    "arxiv": "2505.16421",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "densegrpo",
+    "title": "DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.20218",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ireasoner",
+    "title": "iReasoner: Trajectory-Aware Intrinsic Reasoning Supervision for Self-Evolving Large Multimodal Models",
+    "year": "2026",
+    "venue": "ACL Findings",
+    "arxiv": "2601.05877",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ttrv",
+    "title": "TTRV: Test-Time Reinforcement Learning for Vision Language Models",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2510.06783",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "videoagent",
+    "title": "VideoAgent: Self-Improving Video Generation for Embodied Planning",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2410.10076",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "soar",
+    "title": "Autonomous Improvement of Instruction Following Skills via Foundation Models",
+    "year": "2024",
+    "venue": "CoRL",
+    "arxiv": "2407.20635",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "schulman2017proximal",
+    "title": "Proximal Policy Optimization Algorithms",
+    "year": "2017",
+    "venue": "arXiv",
+    "arxiv": "1707.06347",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rafailov2023direct",
+    "title": "Direct Preference Optimization: Your Language Model Is Secretly a Reward Model",
+    "year": "2023",
+    "venue": "NeurIPS",
+    "arxiv": "2305.18290",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "park2023generative",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": "2023",
+    "venue": "UIST",
+    "arxiv": "2304.03442",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "m2web",
+    "title": "M2: Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.00503",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "memw",
+    "title": "Mem-W: Latent Memory-Native GUI Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.09317",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "cai2023large",
+    "title": "Large Language Models as Tool Makers",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2305.17126",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zhou2023large",
+    "title": "Large Language Models Are Human-Level Prompt Engineers",
+    "year": "2023",
+    "venue": "ICLR",
+    "arxiv": "2211.01910",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "yang2024opro",
+    "title": "Large Language Models as Optimizers",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2309.03409",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "khattab2024dspy",
+    "title": "DSPy: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2310.03714",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rebuffi2017icarl",
+    "title": "iCaRL: Incremental Classifier and Representation Learning",
+    "year": "2017",
+    "venue": "CVPR",
+    "arxiv": "1611.07725",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "chaudhry2019efficient",
+    "title": "Efficient Lifelong Learning with A-GEM",
+    "year": "2019",
+    "venue": "ICLR",
+    "arxiv": "1812.00420",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "buzzega2020dark",
+    "title": "Dark Experience for General Continual Learning: A Strong, Simple Baseline",
+    "year": "2020",
+    "venue": "NeurIPS",
+    "arxiv": "2004.07211",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "li2018learning",
+    "title": "Learning without Forgetting",
+    "year": "2018",
+    "venue": "TPAMI",
+    "arxiv": "1606.09282",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "uivoyager",
+    "title": "UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.24533",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "physmem",
+    "title": "PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.20323",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zetta",
+    "title": "Zetta: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.16590",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "skillharness",
+    "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.11350",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rsiumm",
+    "title": "Recursive Self-Improvement in Unified Multimodal Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.03002",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dohare2024plasticity",
+    "title": "Loss of Plasticity in Deep Continual Learning",
+    "year": "2024",
+    "venue": "Nature",
+    "arxiv": "2306.13812",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "shumailov2024collapse",
+    "title": "AI Models Collapse when Trained on Recursively Generated Data",
+    "year": "2024",
+    "venue": "Nature",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://doi.org/10.1038/s41586-024-07566-y"
+   },
+   {
+    "key": "gerstgrasser2024collapse",
+    "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2404.01413",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "flowgrpo",
+    "title": "Flow-GRPO: Training Flow Matching Models via Online RL",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2505.05470",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wanr1",
+    "title": "Wan-R1: Verifiable-Reinforcement Learning for Video Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.27866",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ardrag",
+    "title": "Real-Time Motion-Controllable Autoregressive Video Diffusion",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.08131",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "identitygrpo",
+    "title": "Identity-GRPO: Optimizing Multi-Human Identity-Preserving Video Generation via Reinforcement Learning",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.14256",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "multicrafter",
+    "title": "MultiCrafter: High-Fidelity Multi-Subject Generation via Disentangled Attention and Identity-Aware Preference Alignment",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2509.21953",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "openwebvoyager",
+    "title": "OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization",
+    "year": "2025",
+    "venue": "ACL",
+    "arxiv": "2410.19609",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "skillweaver",
+    "title": "SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2504.07079",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "huang2025sharpening",
+    "title": "Self-Improvement in Language Models: The Sharpening Mechanism",
+    "year": "2025",
+    "venue": "ICLR",
+    "arxiv": "2412.01951",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "yue2025rlvr",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2504.13837",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "shao2026spurious",
+    "title": "Spurious Rewards: Rethinking Training Signals in RLVR",
+    "year": "2026",
+    "venue": "ICML",
+    "arxiv": "2506.10947",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "opagent",
+    "title": "OpAgent: Operator Agent for Web Navigation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.13559",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "manheim2018goodhart",
+    "title": "Categorizing Variants of Goodhart's Law",
+    "year": "2018",
+    "venue": "arXiv",
+    "arxiv": "1803.04585",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "gao2023scaling",
+    "title": "Scaling Laws for Reward Model Overoptimization",
+    "year": "2023",
+    "venue": "ICML",
+    "arxiv": "2210.10760",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "syncloop",
+    "title": "SyncLoop: A Multimodal Dual-Loop Framework for Self-Improving Mathematical Reasoning",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2507.16518",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "tempozero",
+    "title": "Tempo-Zero: Recursive Self-Play in Executable Worlds for Video Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.32433",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Self-Evolution in Multimodal Reasoning",
+  "file": "chapters/4_multimodal_reasoning",
+  "papers": [
+   {
+    "key": "ttrsd",
+    "title": "TTRSD: Test-Time Reinforcement Learning with Self-Distillation for Vision-Language Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.33414",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "iqaselfevolve",
+    "title": "Self-Evolving Vision-Language Models for Image Quality Assessment via Voting and Ranking",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2509.25787",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "selfjudge",
+    "title": "When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.21289",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sherlock",
+    "title": "Sherlock: Self-Correcting Reasoning in Vision-Language Models",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "2505.22651",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "isrdpo",
+    "title": "ISR-DPO: Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective DPO",
+    "year": "2025",
+    "venue": "AAAI",
+    "arxiv": "2406.11280",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "bus",
+    "title": "BUS: Brain-Inspired Unsupervised Self-Reflection via Backward Prediction for Multimodal Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.07361",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agent0vl",
+    "title": "Agent0-VL: Exploring Self-Evolving Agent for Tool-Integrated Vision-Language Reasoning",
+    "year": "2026",
+    "venue": "ICML",
+    "arxiv": "2511.19900",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "tvp",
+    "title": "Transductive Visual Programming: Evolving Tool Libraries from Experience for Spatial Reasoning",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2512.20934",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "visionzero",
+    "title": "Vision-Zero: Scalable VLM Self-Improvement via Strategic Gamified Self-Play",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2509.25541",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "spatialmem",
+    "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.12743",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evospatial",
+    "title": "EvoSpatial: Experience-Driven Skill and Tool Evolution for Spatial Reasoning Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.16679",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "visionsr1",
+    "title": "Self-Rewarding Vision-Language Model via Reasoning Decomposition",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2508.19652",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "m2note",
+    "title": "M2Note: Continual Evolution of Vision Language Models via Mistake Notebook Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.00685",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "visualevolve",
+    "title": "VisualEvolve: A Skill Self-Evolution Framework for Visual Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.28386",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "coworld",
+    "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.21910",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dynamo",
+    "title": "Dynamo: Dynamic Skill-Tool Evolution for Vision-Language Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.30185",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "physnote",
+    "title": "PhysNote: Self-Knowledge Notes for Evolvable Physical Reasoning in Vision-Language Model",
+    "year": "2026",
+    "venue": "ICLR Workshop",
+    "arxiv": "2604.24443",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "nesyspatial",
+    "title": "Self-Evolving Neuro-Symbolic Skills for Tool-Augmented Spatial Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.07955",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "metaforge",
+    "title": "MetaForge: A Self-Evolving Multimodal Agent that Retrieves, Adapts, and Forges Tools On Demand",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.01801",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vtokens",
+    "title": "Paying More Attention to Visual Tokens in Self-Evolving Large Multimodal Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.27373",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "svq",
+    "title": "Self-Evolving Visual Questioner",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.13929",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "trinity",
+    "title": "Trinity: Self-Evolving Vision-Language Models with a Self-Verifier",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.04469",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "marvo",
+    "title": "Self-Evolving Visual Agent via Margin Reward",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.15084",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "videoevoharness",
+    "title": "VideoEvoHarness: Self Evolving Agent Harness from Unlabeled Videos for Video Understanding",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.15389",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "eve",
+    "title": "EVE: Verifiable Self-Evolution of MLLMs via Executable Visual Transformations",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.18320",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "spatialevo",
+    "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.14144",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "duel",
+    "title": "DUEL: Adversarial Self-Play for Multimodal Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.24794",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sage",
+    "title": "Self-Evolving Spatial Reasoning in Vision Language Models via Geometric Logic Consistency",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.18162",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vico",
+    "title": "VICO: Visual Environments Co-Evolving for Vision-Language Model Reasoning",
+    "year": "2026",
+    "venue": "NeurIPS",
+    "arxiv": "2610.10782",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "physevolve",
+    "title": "PhysEvolve: Verifier-Grounded Self-Evolution for Physical Reasoning with Executable Worlds",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.34921",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "lu2024mathvista",
+    "title": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts",
+    "year": "2024",
+    "venue": "ICLR",
+    "arxiv": "2310.02255",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zhang2024mathverse",
+    "title": "MathVerse: Does Your Multi-Modal LLM Truly See the Diagrams in Visual Math Problems?",
+    "year": "2024",
+    "venue": "ECCV",
+    "arxiv": "2403.14624",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "masry2022chartqa",
+    "title": "ChartQA: A Benchmark for Question Answering About Charts with Visual and Logical Reasoning",
+    "year": "2022",
+    "venue": "ACL Findings",
+    "arxiv": "2203.10244",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rzero",
+    "title": "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2508.05004",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "shafayat2025selftrain",
+    "title": "Can Large Reasoning Models Self-Train?",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.21444",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Self-Evolution in Multimodal Generation",
+  "file": "chapters/5_multimodal_generation",
+  "papers": [
+   {
+    "key": "imgownreward",
+    "title": "The Image as Its Own Reward: Reinforcement Learning with Adversarial Reward for Image Generation",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2511.20256",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "srlvlm",
+    "title": "Self-Rewarding Large Vision-Language Models for Optimizing Prompts in Text-to-Image Generation",
+    "year": "2025",
+    "venue": "ACL Findings",
+    "arxiv": "2505.16763",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "prism",
+    "title": "PRISM: Prompt Refinement via Image-Grounded Self-Rewarding Mechanism for Text-to-Image Generation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.24353",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "safecodebook",
+    "title": "Safe Autoregressive Image Generation with Iterative Self-Improving Codebooks",
+    "year": "2026",
+    "venue": "ICML",
+    "arxiv": "2606.27147",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dualipo",
+    "title": "Dual-IPO: Dual-Iterative Preference Optimization for Text-to-Video Generation",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2502.02088",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "physrepair",
+    "title": "Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.23677",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mtopsd",
+    "title": "On-Policy Self-Distillation for Multi-Turn Image Editing",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.35611",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "jarvisevo",
+    "title": "JarvisEvo: Towards a Self-Evolving Photo Editing Agent with Synergistic Editor-Evaluator Optimization",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2511.23002",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evodiagram",
+    "title": "EvoDesign: Agentic Editable Diagram Creation via Design Expertise Evolution",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.09568",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "scenecraft",
+    "title": "SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code",
+    "year": "2024",
+    "venue": "ICML",
+    "arxiv": "2403.01248",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "figagent",
+    "title": "Automatic Method Illustration Generation for AI Scientific Papers via Drawing Middleware Creation, Evolution, and Orchestration",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.29590",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "manimagent",
+    "title": "ManimAgent: Self-Evolving Multimodal Agents for Visual Education",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.30296",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "readitback",
+    "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+    "year": "2026",
+    "venue": "NeurIPS",
+    "arxiv": "2607.11886",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "octot2i",
+    "title": "OctoT2I: A Self-Evolving Agentic Text-to-Image Router",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2606.01803",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mate",
+    "title": "Mutually Adversarial Self-Training with Evolving Data for Unified Multimodal Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.36224",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rsigen",
+    "title": "RSIgen: Reciprocal Self-Improvement for Agentic Visual Generation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.18688",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "gvu",
+    "title": "Learning to Generate via Understanding: Understanding-Driven Intrinsic Rewarding for Unified Multimodal Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.06043",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "imagersi",
+    "title": "ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.32120",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "unievo",
+    "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.38721",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "comfyclaw",
+    "title": "COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.01709",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "memogen",
+    "title": "MemoGen: Can Past Experience Improve Future Text-to-Image Generation?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.03243",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "genevolve",
+    "title": "GenEvolve: Self-Evolving Image Generation Agents via Tool-Orchestrated Visual Experience Distillation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.21605",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dancegrpo",
+    "title": "DanceGRPO: Unleashing GRPO on Visual Generation",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.07818",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Self-Evolution in GUI and Web Navigation",
+  "file": "chapters/6_gui_web",
+  "papers": [
+   {
+    "key": "guiowl",
+    "title": "Mobile-Agent-v3: Foundamental Agents for GUI Automation",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2508.15144",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "computerrl",
+    "title": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2508.14040",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "arpo",
+    "title": "ARPO: End-to-End Policy Optimization for GUI Agents with Experience Replay",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.16282",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "craftgui",
+    "title": "CRAFT-GUI: Curriculum-Reinforced Agent for GUI Tasks",
+    "year": "2026",
+    "venue": "ICLR Workshop",
+    "arxiv": "2508.11360",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wmr1",
+    "title": "WM-R1: Training GUI Agents to Reason and Leverage World Models with Reinforcement Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.27508",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "atmem",
+    "title": "What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.31612",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mobileforge",
+    "title": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.19930",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "stamp",
+    "title": "STAMP: Training Explicit Memory for Mobile GUI Agents in Controllable and Scalable Virtual Environments",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.29324",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "autoscalemem",
+    "title": "Auto-Scaling Continuous Memory for GUI Agent",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.09038",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "scaffold",
+    "title": "SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.05511",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agents",
+    "title": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
+    "year": "2025",
+    "venue": "ICLR",
+    "arxiv": "2410.08164",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mobilesteward",
+    "title": "MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions",
+    "year": "2025",
+    "venue": "KDD",
+    "arxiv": "2502.16796",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "appagentx",
+    "title": "AppAgentX: Evolving GUI Agents as Proficient Smartphone Users",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2503.02268",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evoskillgui",
+    "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.17653",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "magnet",
+    "title": "MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.19199",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agents4",
+    "title": "Agent S4: Evolutionary Computer Use",
+    "year": "2026",
+    "venue": "OpenReview, ICLR 2027 submission",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://openreview.net/forum?id=P1rGwEYDxm"
+   },
+   {
+    "key": "scale",
+    "title": "Learning to Adapt: Self-Improving Web Agent via Cognitive-Aware Exploration",
+    "year": "2026",
+    "venue": "CVPR",
+    "arxiv": "2605.31365",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agentrewardbench",
+    "title": "AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories",
+    "year": "2025",
+    "venue": "COLM",
+    "arxiv": "2504.08942",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "guiharvest",
+    "title": "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.00948",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Self-Evolution in Embodied Manipulation",
+  "file": "chapters/7_embodied",
+  "papers": [
+   {
+    "key": "riptvla",
+    "title": "Interactive Post-Training for Vision-Language-Action Models",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.17016",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pirl",
+    "title": "_RL: Online RL Fine-Tuning for Flow-Based Vision-Language-Action Models",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.25889",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "robobridge",
+    "title": "RoboBridge: A Self-Evolving Embodied Agent Framework for Sim-to-Real Transfer",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.02717",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "embodiedevo",
+    "title": "EmbodiedEvo: Self-Evolving Coding Agent for Physical Intelligence",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.18867",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "roboharnevo",
+    "title": "RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.37583",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "batonem",
+    "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-Aware Memory",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.16889",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "harnessvla",
+    "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.08448",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "aspire",
+    "title": "ASPIRE: Agentic Skills Discovery for Robotics",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.00272",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "viskill",
+    "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.12403",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "plrsi",
+    "title": "Policy-Level Recursive Self-Improvement for Embodied AI with a Criticality World Model",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.28251",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "scaleselection",
+    "title": "Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.39304",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "roboevolve",
+    "title": "RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.13775",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "motus2",
+    "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.30237",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "eeagent",
+    "title": "Evolvable Embodied Agent for Robotic Manipulation via Long Short-Term Reflection and Optimization",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.13533",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pragmabot",
+    "title": "A Pragmatist Robot: Learning to Plan Tasks by Experiencing the Real World",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2507.16713",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rats",
+    "title": "Playful Agentic Robot Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.19419",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "roborsi",
+    "title": "RoboRSI: Stable, Efficient, and Reusable Robot Self-Evolution in Complex Real-World Environments",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.12424",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "reflectionvla",
+    "title": "Reflection-Based Task Adaptation for Self-Improving VLA",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.12710",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "coorch",
+    "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.09228",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "makoviychuk2021isaac",
+    "title": "Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning",
+    "year": "2021",
+    "venue": "arXiv",
+    "arxiv": "2108.10470",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wovr",
+    "title": "WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.13977",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rawdream",
+    "title": "Reinforcing VLAs in Task-Agnostic World Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.12334",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rpg",
+    "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.02204",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "hymes",
+    "title": "Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.09410",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "enpire",
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.19980",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Cross-Scenario Asymmetry",
+  "file": "chapters/8_cross_scenario",
+  "papers": [
+   {
+    "key": "spro",
+    "title": "SPRO: Improving Image Generation via Self-Play",
+    "year": "2025",
+    "venue": "NeurIPS",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://openreview.net/forum?id=A4JiifkTzq"
+   },
+   {
+    "key": "onlinevpo",
+    "title": "OnlineVPO: Align Video Diffusion Model with Online Video-Centric Preference Optimization",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2412.15159",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "superflow",
+    "title": "SuperFlow: Training Flow Matching Models with RL on the Fly",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2512.17951",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "rrmedit",
+    "title": "Leveraging Verifier-Based Reinforcement Learning in Image Editing",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.27505",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "r3v",
+    "title": "Vision-Language Models Can Self-Improve Reasoning via Reflection",
+    "year": "2025",
+    "venue": "NAACL",
+    "arxiv": "2411.00855",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "svrr1",
+    "title": "SVR-R1: Bootstrapping Multi-Modal Reasoning with Self-Verification in Reinforcement Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.10966",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "selfquestion",
+    "title": "Self-Questioning Vision-Language Models: Reinforcement Learning for Compositional Visual Reasoning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.15651",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "verievol",
+    "title": "VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.23543",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "sutton1991dyna",
+    "title": "Dyna, an Integrated Architecture for Learning, Planning, and Reacting",
+    "year": "1991",
+    "venue": "SIGART Bull.",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://dlnext.acm.org/doi/10.1145/122344.122377"
+   },
+   {
+    "key": "janner2019mbpo",
+    "title": "When to Trust Your Model: Model-Based Policy Optimization",
+    "year": "2019",
+    "venue": "NeurIPS",
+    "arxiv": "1906.08253",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "song2025mindgap",
+    "title": "Mind the Gap: Examining the Self-Improvement Capabilities of Large Language Models",
+    "year": "2025",
+    "venue": "ICLR",
+    "arxiv": "2412.02674",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "kalashnikov2018qtopt",
+    "title": "Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation",
+    "year": "2018",
+    "venue": "CoRL",
+    "arxiv": "1806.10293",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "failbench",
+    "title": "FailBench: How Reliable Are VLMs at Judging Robot Task Success?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.03611",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dynaweb",
+    "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.22149",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Self-Evolving Multimodal Agent Evaluation",
+  "file": "chapters/9_evaluation",
+  "papers": [
+   {
+    "key": "mathvision",
+    "title": "Measuring Multimodal Mathematical Reasoning with MATH-Vision Dataset",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2402.14804",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmmu",
+    "title": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2311.16502",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "intergps",
+    "title": "Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning",
+    "year": "2021",
+    "venue": "arXiv",
+    "arxiv": "2105.04165",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "physbench",
+    "title": "PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2501.16411",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vsibench",
+    "title": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2412.14171",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "hallusionbench",
+    "title": "HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2310.14566",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmsibench",
+    "title": "MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.23764",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmvu",
+    "title": "MMVU: Measuring Expert-Level Multi-Discipline Video Understanding",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2501.12380",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "geneval",
+    "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2310.11513",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "t2icompbench",
+    "title": "T2I-CompBench++: An Enhanced and Comprehensive Benchmark for Compositional Text-to-image Generation",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2307.06350",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "ella",
+    "title": "ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2403.05135",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "wise",
+    "title": "WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2503.07265",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vbench",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2311.17982",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "osworld",
+    "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2404.07972",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "scienceboard",
+    "title": "ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.19897",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "androidworld",
+    "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2405.14573",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "androidlab",
+    "title": "AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2410.24024",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "aitw",
+    "title": "Android in the Wild: A Large-Scale Dataset for Android Device Control",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2307.10088",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "androidcontrol",
+    "title": "On the Effects of Data Scale on UI Control Agents",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2406.03679",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "webvoyager",
+    "title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2401.13919",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "webarena",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "year": "2023",
+    "venue": "arXiv",
+    "arxiv": "2307.13854",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "visualwebarena",
+    "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2401.13649",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "libero",
+    "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
+    "year": "2023",
+    "venue": "NeurIPS D&B",
+    "arxiv": "2306.03310",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "liberopro",
+    "title": "LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2510.03827",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "tao2024maniskill3",
+    "title": "ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2410.00425",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "robocasa",
+    "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2406.02523",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "robotwin2",
+    "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2506.18088",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "robolab",
+    "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.09860",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "robodojo",
+    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.04434",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vlabench",
+    "title": "VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2412.18194",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "behavior1k",
+    "title": "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2403.09227",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "discoverse",
+    "title": "DISCOVERSE: Efficient Robot Simulation in Complex High-Fidelity Environments",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2507.21981",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vima",
+    "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+    "year": "2022",
+    "venue": "arXiv",
+    "arxiv": "2210.03094",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmstar",
+    "title": "Are We on the Right Way for Evaluating Large Vision-Language Models?",
+    "year": "2024",
+    "venue": "arXiv",
+    "arxiv": "2403.20330",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "geneval2",
+    "title": "GenEval 2: Addressing Benchmark Drift in Text-to-Image Evaluation",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2512.16853",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "benchjack",
+    "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.12673",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evomemory",
+    "title": "Evo-Memory: Benchmarking LLM Agent Test-Time Learning with Self-Evolving Memory",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2511.20857",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evomembench",
+    "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective",
+    "year": "2026",
+    "venue": "NeurIPS",
+    "arxiv": "2605.18421",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "continualagentmemory",
+    "title": "Benchmarking Continual Agent Memory for Online Learning, Transfer, and Forgetting",
+    "year": "2026",
+    "venue": "ICLR Workshop",
+    "arxiv": "",
+    "doi": "",
+    "url": "https://openreview.net/forum?id=MSXbrNExax"
+   },
+   {
+    "key": "lifelongagentbench",
+    "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2505.11942",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "stulife",
+    "title": "Building Self-Evolving Agents via Experience-Driven Lifelong Learning: A Framework and Benchmark",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2508.19005",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agentcl",
+    "title": "AgentCL: Toward Rigorous Evaluation of Continual Learning in Language Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.02461",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pathbench",
+    "title": "PATH-Bench: Path-Dependent Evaluation of Lifelong Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.01149",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "selfevocl",
+    "title": "Are Self-Evolving Agents Continual Learners?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.25858",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evoharnessbench",
+    "title": "EvoHarnessBench: Can Your Agents Keep Pace with an Evolving Harness?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.04280",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evobenchharness",
+    "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.09096",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "harnessbenefit",
+    "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.30621",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "evoagentbench",
+    "title": "EvoAgentBench: Benchmarking Agent Self-Evolution via Ability Transfer",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.05202",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "seaeval",
+    "title": "SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.08988",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "finevobench",
+    "title": "FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.06144",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "finevolvebench",
+    "title": "FinEvolveBench: A Benchmark for Self-Evolving Agents on Low-Repetition Tasks with Implicit Rewards",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.06960",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "gdpevo",
+    "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2608.03764",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "beyondendpoint",
+    "title": "Beyond Endpoint Performance: Process-Level Evaluation of Self-Evolving Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.24663",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "memoryagentbench",
+    "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2507.05257",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "worldmemarena",
+    "title": "WorldMemArena: Evaluating Multimodal Agent Memory through Action–World Interaction",
+    "year": "2026",
+    "venue": "NeurIPS",
+    "arxiv": "2605.29341",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "longmemevalv2",
+    "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.12493",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "cgl",
+    "title": "CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.02951",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "continualgui",
+    "title": "Continual GUI Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.20732",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "agenticmme",
+    "title": "Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.03016",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "memguibench",
+    "title": "MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2602.06075",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmg2skillbench",
+    "title": "MMG2Skill: Can Agents Distill In-the-Wild Guides into Self-Evolving Skills?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.01993",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "gameboyworlds",
+    "title": "GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.32093",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "physrsieval",
+    "title": "Where is Physical RSI Capability From? An Observational Scaling Law of LLM-as-Policy",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.26848",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "criteriaexposure",
+    "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2611.08318",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "flexrsi",
+    "title": "Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2611.08946",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vlrewardbench",
+    "title": "VL-RewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models",
+    "year": "2025",
+    "venue": "CVPR",
+    "arxiv": "2411.17451",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmrewardbench",
+    "title": "Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2502.14191",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "vurb",
+    "title": "Video Understanding Reward Modeling: A Robust Benchmark and Performant Reward Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2605.07872",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "androidflux",
+    "title": "AndroidFlux: Evaluating and Reward Modeling Failure Recovery Capabilities in Mobile Use Multimodal Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.34384",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "dontreadlog",
+    "title": "Don't Read the Log: Execution Traces Contaminate Verifiers in Video-Generation Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.28564",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mmrewardhacking",
+    "title": "Multimodal Reward Hacking in Reinforcement Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.09492",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mjbench",
+    "title": "MJ-Bench: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation?",
+    "year": "2025",
+    "venue": "NeurIPS D&B",
+    "arxiv": "2407.04842",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "isovrbench",
+    "title": "IsoVRBench: Video Reward Modeling Without Human Feedback",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.17234",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "tdpo",
+    "title": "Confronting Reward Overoptimization for Diffusion Models: A Perspective of Inductive and Primacy Biases",
+    "year": "2024",
+    "venue": "ICML",
+    "arxiv": "2402.08552",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "t2irewardhacking",
+    "title": "Understanding Reward Hacking in Text-to-Image Reinforcement Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.03468",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "robotagentbench",
+    "title": "RobotAgentBench: Towards Open-World Robot Autonomy",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.34649",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "pokegym",
+    "title": "Mastering PokeGym: Graph-Guided Multimodal Evolution at Test Time",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2604.08340",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "gameverse",
+    "title": "GameVerse: Can Vision-Language Models Learn from Video-Based Reflection?",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.06656",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "omnigamearena",
+    "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2606.09826",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "selfimprovebench",
+    "title": "SelfImprove-Bench: Evaluating Generalization in Self-Improving Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2611.02797",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "embodiedclbench",
+    "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.13021",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mcevobench",
+    "title": "MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.13829",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "selfverifiercapture",
+    "title": "Self-Verifier Capture in Unified Visual Generators: Diagnosing and Repairing Closed-Loop Self-Reward",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.16500",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "selfplayjudge",
+    "title": "More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free LLM Judges",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2607.05904",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "webrl",
+    "title": "WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning",
+    "year": "2025",
+    "venue": "ICLR",
+    "arxiv": "2411.02337",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "mllmjudge",
+    "title": "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark",
+    "year": "2024",
+    "venue": "ICML",
+    "arxiv": "2402.04788",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "visualprm",
+    "title": "VisualPRM: An Effective Process Reward Model for Multimodal Reasoning",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2503.10291",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "selfimprovevlmjudge",
+    "title": "Self-Improving VLM Judges without Human Annotations",
+    "year": "2025",
+    "venue": "arXiv",
+    "arxiv": "2512.05145",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "solerl",
+    "title": "SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2603.28730",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "judgehackingpace",
+    "title": "Who Sets the Pace of Judge Hacking? Judge Capability versus the Policy–Judge Gap",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2610.15778",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "chapter": "Open Challenges",
+  "file": "chapters/10_open_challenges",
+  "papers": [
+   {
+    "key": "evocua",
+    "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2601.15876",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "shao2026misevolve",
+    "title": "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
+    "year": "2026",
+    "venue": "ICLR",
+    "arxiv": "2509.26354",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "zhao2026safetyrisks",
+    "title": "On Safety Risks in Experience-Driven Self-Evolving Agents",
+    "year": "2026",
+    "venue": "ACL Findings",
+    "arxiv": "2604.16968",
+    "doi": "",
+    "url": ""
+   },
+   {
+    "key": "cui2026failbank",
+    "title": "Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models",
+    "year": "2026",
+    "venue": "arXiv",
+    "arxiv": "2609.39820",
+    "doi": "",
+    "url": ""
+   }
+  ]
+ }
+]
